@@ -2,12 +2,25 @@ export type ApartmentType = 'studio' | 'one-room' | 'two-room' | 'three-room';
 
 export type FinishStyle = 'provence' | 'grunge' | 'moire';
 
-export type MaterialCategory = 'materials' | 'consumables' | 'tools';
+export type MaterialCategory =
+  | 'plaster'
+  | 'putty'
+  | 'primer'
+  | 'paint'
+  | 'tile'
+  | 'laminate'
+  | 'doors'
+  | 'plumbing'
+  | 'electrics'
+  | 'consumables'
+  | 'tools';
+
+export type CalculationGroup = 'materials' | 'consumables' | 'tools';
 
 export interface ApartmentOption {
   id: ApartmentType;
   label: string;
-  rooms: number;
+  recommendedArea: number;
 }
 
 export interface FinishStyleOption {
@@ -16,19 +29,24 @@ export interface FinishStyleOption {
   description: string;
 }
 
-export interface MaterialItem {
+export interface WarehouseMaterial {
   id: string;
   article: string;
   name: string;
-  image: string;
   category: MaterialCategory;
   unit: string;
-  quantity: number;
+  price: number;
   weight: number;
   volume: number;
+  stock: number;
+  reserved: number;
+  available: number;
+  image: string;
 }
 
-export interface ToolItem extends MaterialItem {
+export interface CalculatedMaterial extends WarehouseMaterial {
+  group: CalculationGroup;
+  quantity: number;
   selected: boolean;
 }
 
@@ -37,21 +55,24 @@ export interface CalculatorInput {
   area: number;
   height: number;
   style: FinishStyle;
+  includeTools: boolean;
 }
 
 export interface CalculatorSummary {
+  objectLabel: string;
   materialPositions: number;
   consumablePositions: number;
   toolPositions: number;
-  totalItems: number;
-  totalBags: number;
+  totalPositions: number;
+  totalQuantity: number;
   totalWeight: number;
   totalVolume: number;
+  totalCost: number;
 }
 
 export interface CalculatorResult {
-  materials: MaterialItem[];
-  consumables: MaterialItem[];
-  tools: ToolItem[];
+  materials: CalculatedMaterial[];
+  consumables: CalculatedMaterial[];
+  tools: CalculatedMaterial[];
   summary: CalculatorSummary;
 }

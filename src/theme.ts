@@ -4,15 +4,15 @@ export const theme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: '#1f6f5b',
-      dark: '#164f42',
+      main: '#245e52',
+      dark: '#173f38',
       contrastText: '#ffffff',
     },
     secondary: {
-      main: '#c36a2d',
+      main: '#a85d32',
     },
     background: {
-      default: '#f4f6f5',
+      default: '#f5f6f4',
       paper: '#ffffff',
     },
     text: {
@@ -26,12 +26,12 @@ export const theme = createTheme({
   typography: {
     fontFamily: ['Inter', 'Segoe UI', 'Roboto', 'Arial', 'sans-serif'].join(','),
     h1: {
-      fontSize: '2rem',
+      fontSize: '2.1rem',
       fontWeight: 700,
       letterSpacing: 0,
     },
     h2: {
-      fontSize: '1.35rem',
+      fontSize: '1.2rem',
       fontWeight: 700,
       letterSpacing: 0,
     },

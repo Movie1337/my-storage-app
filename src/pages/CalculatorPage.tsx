@@ -1,177 +1,102 @@
-import { FormEvent, useMemo, useState } from 'react';
-import {
-  Alert,
-  Box,
-  Button,
-  Container,
-  Paper,
-  Snackbar,
-  Stack,
-  Typography,
-} from '@mui/material';
-import CalculateOutlinedIcon from '@mui/icons-material/CalculateOutlined';
-import { ApartmentSelector } from '../components/Calculator/ApartmentSelector';
-import { AreaInput } from '../components/Calculator/AreaInput';
-import { HeightSelector } from '../components/Calculator/HeightSelector';
-import { MaterialList } from '../components/Calculator/MaterialList';
-import { StyleSelector } from '../components/Calculator/StyleSelector';
-import { SummaryCard } from '../components/Calculator/SummaryCard';
-import { calculateMaterials, createSummary } from '../services/calculator';
-import type { ApartmentType, CalculatorInput, CalculatorResult, FinishStyle, MaterialItem, ToolItem } from '../types/calculator';
-
-const initialInput: CalculatorInput = {
-  apartmentType: 'one-room',
-  area: 45,
-  height: 2.7,
-  style: 'provence',
-};
-
-const emptySummary = {
-  materialPositions: 0,
-  consumablePositions: 0,
-  toolPositions: 0,
-  totalItems: 0,
-  totalBags: 0,
-  totalWeight: 0,
-  totalVolume: 0,
-};
+import { useState } from 'react';
+import { Alert, Box, Container, Paper, Snackbar, Stack, Typography } from '@mui/material';
+import { CalculatorFilters } from '../features/calculator/components/CalculatorFilters';
+import { MaterialSection } from '../features/calculator/components/MaterialSection';
+import { SummaryPanel } from '../features/calculator/components/SummaryPanel';
+import { useCalculator } from '../features/calculator/model/useCalculator';
 
 export function CalculatorPage() {
-  const [apartmentType, setApartmentType] = useState<ApartmentType>(initialInput.apartmentType);
-  const [area, setArea] = useState(initialInput.area);
-  const [height, setHeight] = useState(initialInput.height);
-  const [style, setStyle] = useState<FinishStyle>(initialInput.style);
-  const [result, setResult] = useState<CalculatorResult | null>(null);
+  const {
+    input,
+    result,
+    summary,
+    loading,
+    setInput,
+    calculate,
+    createRequest,
+    updateQuantity,
+    toggleTool,
+  } = useCalculator();
   const [snackbarOpen, setSnackbarOpen] = useState(false);
 
-  const input = useMemo(
-    () => ({ apartmentType, area, height, style }),
-    [apartmentType, area, height, style],
-  );
-
-  const summary = result ? createSummary(result.materials, result.consumables, result.tools) : null;
-
-  const handleCalculate = (event: FormEvent) => {
-    event.preventDefault();
-    setResult(calculateMaterials(input));
-  };
-
-  const updateMaterialQuantity = (
-    group: 'materials' | 'consumables',
-    id: string,
-    quantity: number,
-  ) => {
-    setResult((current) => {
-      if (!current) {
-        return current;
-      }
-
-      return {
-        ...current,
-        [group]: current[group].map((item: MaterialItem) =>
-          item.id === id ? { ...item, quantity } : item,
-        ),
-      };
-    });
-  };
-
-  const updateTool = (id: string, selected: boolean) => {
-    setResult((current) => {
-      if (!current) {
-        return current;
-      }
-
-      return {
-        ...current,
-        tools: current.tools.map((tool: ToolItem) =>
-          tool.id === id ? { ...tool, selected } : tool,
-        ),
-      };
-    });
+  const handleCreateRequest = async () => {
+    await createRequest();
+    setSnackbarOpen(true);
   };
 
   return (
-    <Box sx={{ minHeight: '100vh', py: { xs: 3, md: 5 } }}>
+    <Box sx={{ minHeight: '100vh', py: { xs: 2, md: 4 } }}>
       <Container maxWidth="xl">
-        <Stack spacing={3}>
-          <Typography component="h1" variant="h1">
-            Расчет материалов для отделки
-          </Typography>
+        <Stack spacing={2.5}>
+          <Stack spacing={0.5}>
+            <Typography component="h1" variant="h1">
+              Расчет материалов для ремонта квартиры
+            </Typography>
+            <Typography color="text.secondary">
+              ERP-калькулятор склада: расчет потребности, остатков и заявки на выдачу материалов.
+            </Typography>
+          </Stack>
 
           <Box
             sx={{
               display: 'grid',
-              gridTemplateColumns: { xs: '1fr', lg: 'minmax(0, 1fr) 360px' },
-              gap: 3,
+              gridTemplateColumns: { xs: '1fr', lg: '300px minmax(0, 1fr) 340px' },
+              gap: 2,
               alignItems: 'start',
             }}
           >
-            <Stack spacing={3}>
-              <Paper
-                component="form"
-                elevation={0}
-                onSubmit={handleCalculate}
-                sx={{ p: 3, border: '1px solid', borderColor: 'divider' }}
-              >
-                <Stack spacing={3}>
-                  <Typography variant="h2">Выбор объекта</Typography>
-                  <Box
-                    sx={{
-                      display: 'grid',
-                      gridTemplateColumns: { xs: '1fr', md: '1fr 1fr' },
-                      gap: 3,
-                    }}
-                  >
-                    <ApartmentSelector value={apartmentType} onChange={setApartmentType} />
-                    <Stack spacing={2}>
-                      <AreaInput value={area} onChange={setArea} />
-                      <HeightSelector value={height} onChange={setHeight} />
-                      <StyleSelector value={style} onChange={setStyle} />
-                    </Stack>
-                  </Box>
-                  <Button
-                    size="large"
-                    type="submit"
-                    variant="contained"
-                    startIcon={<CalculateOutlinedIcon />}
-                    sx={{ alignSelf: { xs: 'stretch', sm: 'flex-start' } }}
-                  >
-                    Рассчитать
-                  </Button>
-                </Stack>
-              </Paper>
+            <CalculatorFilters
+              value={input}
+              loading={loading}
+              onChange={setInput}
+              onCalculate={calculate}
+            />
 
-              {result && (
-                <Stack spacing={4}>
-                  <MaterialList
+            <Stack spacing={2}>
+              {result ? (
+                <>
+                  <MaterialSection
                     title="Основные материалы"
                     items={result.materials}
-                    onQuantityChange={(id, quantity) =>
-                      updateMaterialQuantity('materials', id, quantity)
-                    }
+                    onQuantityChange={(id, quantity) => updateQuantity('materials', id, quantity)}
                   />
-                  <MaterialList
-                    title="Расходники"
+                  <MaterialSection
+                    title="Расходные материалы"
                     items={result.consumables}
-                    onQuantityChange={(id, quantity) =>
-                      updateMaterialQuantity('consumables', id, quantity)
-                    }
+                    onQuantityChange={(id, quantity) => updateQuantity('consumables', id, quantity)}
                   />
-                  <MaterialList
-                    title="Инструмент"
-                    items={result.tools}
-                    isTool
-                    onToolToggle={updateTool}
-                  />
-                </Stack>
+                  {input.includeTools ? (
+                    <MaterialSection
+                      title="Инструмент"
+                      items={result.tools}
+                      onQuantityChange={(id, quantity) => updateQuantity('tools', id, quantity)}
+                      onToggle={toggleTool}
+                    />
+                  ) : null}
+                </>
+              ) : (
+                <Paper
+                  elevation={0}
+                  sx={{
+                    p: 4,
+                    border: '1px dashed',
+                    borderColor: 'divider',
+                    textAlign: 'center',
+                  }}
+                >
+                  <Typography variant="h2">Заполните параметры и запустите расчет</Typography>
+                  <Typography color="text.secondary" sx={{ mt: 1 }}>
+                    Список материалов появится здесь после обращения к сервисному слою.
+                  </Typography>
+                </Paper>
               )}
             </Stack>
 
-            <SummaryCard
+            <SummaryPanel
               input={input}
-              summary={summary ?? emptySummary}
+              summary={summary}
               disabled={!result}
-              onIssue={() => setSnackbarOpen(true)}
+              onCreateRequest={handleCreateRequest}
             />
           </Box>
         </Stack>
@@ -179,12 +104,12 @@ export function CalculatorPage() {
 
       <Snackbar
         open={snackbarOpen}
-        autoHideDuration={3000}
+        autoHideDuration={3200}
         onClose={() => setSnackbarOpen(false)}
         anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
       >
         <Alert severity="success" variant="filled" onClose={() => setSnackbarOpen(false)}>
-          Материалы подготовлены к выдаче
+          Заявка на выдачу материалов успешно создана
         </Alert>
       </Snackbar>
     </Box>
