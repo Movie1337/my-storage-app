@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { CalculatedMaterial, CalculatorInput, CalculatorResult, CalculatorSummary } from '../../../types/calculator';
 import { calculatorService } from '../../../services/CalculatorService';
 import { styleService } from '../../../services/StyleService';
@@ -25,7 +25,11 @@ const createEmptySummary = (input: CalculatorInput): CalculatorSummary => ({
   totalCost: 0,
 });
 
-const toCalculatedMaterial = async (material: MaterialDefinition, group: 'materials' | 'consumables' | 'tools', selected = true): Promise<CalculatedMaterial> => {
+const toCalculatedMaterial = async (
+  material: MaterialDefinition & { displayCategoryLabel?: string },
+  group: 'materials' | 'consumables' | 'tools',
+  selected = true,
+): Promise<CalculatedMaterial> => {
   const stock = await warehouseService.getStock(material.id);
   const quantity = Math.max(1, Math.ceil(material.quantity));
   const approximateWeight = Number((quantity * 0.8).toFixed(2));
@@ -47,6 +51,7 @@ const toCalculatedMaterial = async (material: MaterialDefinition, group: 'materi
     group,
     quantity,
     selected,
+    displayCategoryLabel: material.displayCategoryLabel ?? 'Строительный материал',
   };
 };
 
@@ -75,25 +80,26 @@ export function useCalculator() {
     };
   }, [input, result]);
 
-  const calculate = async () => {
+  const calculate = useCallback(async () => {
     setLoading(true);
     try {
+      const currentInput = input;
       const materials = await calculatorService.calculate({
-        apartmentType: input.apartmentType,
-        area: input.area,
-        ceilingHeight: input.height,
-        styleId: input.style,
+        apartmentType: currentInput.apartmentType,
+        area: currentInput.area,
+        ceilingHeight: currentInput.height,
+        styleId: currentInput.style,
       });
 
-      const style = await styleService.getStyleById(input.style);
-      setStyleName(style?.name ?? input.style);
+      const style = await styleService.getStyleById(currentInput.style);
+      setStyleName(style?.name ?? currentInput.style);
 
       const mapped = await Promise.all(
         materials.map(async (material) => {
           const category = material.category as MaterialDefinition['category'];
           const group: 'materials' | 'consumables' | 'tools' =
-            category === 'consumables' ? 'consumables' : category === 'tools' ? 'tools' : 'materials';
-          return toCalculatedMaterial(material, group, group !== 'tools' || input.includeTools);
+            category === 'consumables' || category === 'technical' ? 'consumables' : category === 'tools' ? 'tools' : 'materials';
+          return toCalculatedMaterial(material, group, group !== 'tools' || currentInput.includeTools);
         }),
       );
 
@@ -105,12 +111,16 @@ export function useCalculator() {
         materials: materialsGroup,
         consumables: consumablesGroup,
         tools: toolsGroup,
-        summary: createEmptySummary(input),
+        summary: createEmptySummary(currentInput),
       });
     } finally {
       setLoading(false);
     }
-  };
+  }, [input]);
+
+  useEffect(() => {
+    void calculate();
+  }, [calculate]);
 
   const updateGroupItem = (
     group: keyof Pick<CalculatorResult, 'materials' | 'consumables' | 'tools'>,

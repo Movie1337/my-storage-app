@@ -1,8 +1,6 @@
 import { Button, Divider, Paper, Stack, Typography } from '@mui/material';
 import Inventory2OutlinedIcon from '@mui/icons-material/Inventory2Outlined';
 import type { CalculatorInput, CalculatorSummary } from '../../../types/calculator';
-import { getFinishStyleName } from '../../objects/model/options';
-import { formatCurrency, formatNumber } from '../../../shared/lib/formatters';
 
 interface SummaryPanelProps {
   input: CalculatorInput;
@@ -34,14 +32,11 @@ export function SummaryPanel({ input, summary, styleName, disabled, onCreateRequ
         </Stack>
 
         <Divider />
-        <SummaryLine label="Основные материалы" value={`${summary.materialPositions} поз.`} />
-        <SummaryLine label="Расходные материалы" value={`${summary.consumablePositions} поз.`} />
-        <SummaryLine label="Инструмент" value={`${summary.toolPositions} поз.`} />
-        <Divider />
+        <SummaryLine label="Позиции" value={`${summary.totalPositions} поз.`} />
         <SummaryLine label="Количество материалов" value={`${summary.totalQuantity} ед.`} />
-        <SummaryLine label="Общий вес" value={`${formatNumber(summary.totalWeight)} кг`} />
-        <SummaryLine label="Общий объем" value={`${formatNumber(summary.totalVolume)} м3`} />
-        <SummaryLine label="Стоимость" value={formatCurrency(summary.totalCost)} strong />
+        <SummaryLine label="Общий вес" value={`${summary.totalWeight.toFixed(1)} кг`} />
+        <SummaryLine label="Общий объём" value={`${summary.totalVolume.toFixed(2)} м3`} />
+        <Divider />
 
         <Button
           disabled={disabled}

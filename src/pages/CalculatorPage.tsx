@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Alert, Box, Container, Paper, Snackbar, Stack, Typography } from '@mui/material';
 import { CalculatorFilters } from '../features/calculator/components/CalculatorFilters';
 import { MaterialSection } from '../features/calculator/components/MaterialSection';
@@ -19,6 +19,31 @@ export function CalculatorPage() {
     toggleTool,
   } = useCalculator();
   const [snackbarOpen, setSnackbarOpen] = useState(false);
+
+  const sections = useMemo(() => {
+    if (!result) {
+      return [] as Array<{ title: string; items: typeof result.materials; group: 'materials' | 'consumables' | 'tools' }>;
+    }
+
+    const allItems = [...result.materials, ...result.consumables, ...(input.includeTools ? result.tools : [])];
+    const grouped = new Map<string, typeof result.materials>();
+
+    allItems.forEach((item) => {
+      const existing = grouped.get(item.displayCategoryLabel) ?? [];
+      grouped.set(item.displayCategoryLabel, [...existing, item]);
+    });
+
+    const order = ['Строительный материал', 'Инженерные системы', 'Сантехника', 'Крепеж', 'Финишная отделка', 'Электрика', 'Инструмент', 'Технические товары', 'Двери'];
+
+    return order.map((title) => {
+      const items = (grouped.get(title) ?? []).slice(0, 5);
+      return {
+        title,
+        items,
+        group: title === 'Инструмент' ? 'tools' : title === 'Технические товары' ? 'consumables' : 'materials',
+      };
+    });
+  }, [input.includeTools, result]);
 
   const handleCreateRequest = async () => {
     await createRequest();
@@ -56,24 +81,15 @@ export function CalculatorPage() {
             <Stack spacing={2}>
               {result ? (
                 <>
-                  <MaterialSection
-                    title="Основные материалы"
-                    items={result.materials}
-                    onQuantityChange={(id, quantity) => updateQuantity('materials', id, quantity)}
-                  />
-                  <MaterialSection
-                    title="Расходные материалы"
-                    items={result.consumables}
-                    onQuantityChange={(id, quantity) => updateQuantity('consumables', id, quantity)}
-                  />
-                  {input.includeTools ? (
+                  {sections.map((section) => (
                     <MaterialSection
-                      title="Инструмент"
-                      items={result.tools}
-                      onQuantityChange={(id, quantity) => updateQuantity('tools', id, quantity)}
-                      onToggle={toggleTool}
+                      key={section.title}
+                      title={section.title}
+                      items={section.items}
+                      onQuantityChange={(id, quantity, group) => updateQuantity(group, id, quantity)}
+                      onToggle={section.group === 'tools' ? toggleTool : undefined}
                     />
-                  ) : null}
+                  ))}
                 </>
               ) : (
                 <Paper

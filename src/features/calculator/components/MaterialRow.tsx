@@ -1,17 +1,18 @@
 import { Box, Checkbox, Chip, Paper, Stack, Tooltip, Typography } from '@mui/material';
 import type { CalculatedMaterial } from '../../../types/calculator';
-import { formatCurrency } from '../../../shared/lib/formatters';
 import { QuantityStepper } from './QuantityStepper';
 
 interface MaterialRowProps {
   item: CalculatedMaterial;
-  onQuantityChange: (id: string, quantity: number) => void;
+  onQuantityChange: (id: string, quantity: number, group: CalculatedMaterial['group']) => void;
   onToggle?: (id: string, selected: boolean) => void;
 }
 
 export function MaterialRow({ item, onQuantityChange, onToggle }: MaterialRowProps) {
   const disabled = item.group === 'tools' && !item.selected;
-  const stockColor = item.quantity > item.available ? 'error' : item.available < 10 ? 'warning' : 'success';
+  const required = Math.max(item.quantity, 1);
+  const ratio = item.available / required;
+  const stockColor = ratio >= 0.5 ? 'success' : ratio >= 0.1 ? 'warning' : 'error';
 
   return (
     <Paper
@@ -28,7 +29,7 @@ export function MaterialRow({ item, onQuantityChange, onToggle }: MaterialRowPro
           display: 'grid',
           gridTemplateColumns: {
             xs: '72px minmax(0, 1fr)',
-            md: '82px minmax(180px, 1fr) 90px 96px 92px 116px',
+            md: '82px minmax(180px, 1fr) 90px 120px',
           },
           gap: 1.5,
           alignItems: 'center',
@@ -57,19 +58,21 @@ export function MaterialRow({ item, onQuantityChange, onToggle }: MaterialRowPro
           {item.unit}
         </Typography>
 
-        <Chip
-          size="small"
-          color={stockColor}
-          variant="outlined"
-          label={`${item.available} на складе`}
-          sx={{ display: { xs: 'none', md: 'inline-flex' } }}
-        />
-
-        <Typography sx={{ display: { xs: 'none', md: 'block' }, fontWeight: 700 }}>
-          {formatCurrency(item.price)}
-        </Typography>
+        <Stack direction="row" spacing={1} sx={{ display: { xs: 'none', md: 'flex' } }}>
+          <Chip
+            size="small"
+            color={stockColor}
+            variant="outlined"
+            label={`${item.available} на складе`}
+          />
+        </Stack>
 
         <Stack direction="row" alignItems="center" justifyContent={{ xs: 'space-between', md: 'flex-end' }} spacing={1}>
+          <QuantityStepper
+            value={item.quantity}
+            disabled={disabled}
+            onChange={(quantity) => onQuantityChange(item.id, quantity, item.group)}
+          />
           {item.group === 'tools' && onToggle ? (
             <Tooltip title={item.selected ? 'Отключить инструмент' : 'Добавить инструмент'}>
               <Checkbox
@@ -79,11 +82,6 @@ export function MaterialRow({ item, onQuantityChange, onToggle }: MaterialRowPro
               />
             </Tooltip>
           ) : null}
-          <QuantityStepper
-            value={item.quantity}
-            disabled={disabled}
-            onChange={(quantity) => onQuantityChange(item.id, quantity)}
-          />
         </Stack>
       </Box>
     </Paper>

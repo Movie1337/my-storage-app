@@ -6,7 +6,7 @@
       "name": "Штукатурка гипсовая Knauf МП-75 машинная 30 кг",
       "unit": "шт",
       "quantity": 50.0,
-      "category": "plaster",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -16,7 +16,7 @@
       "name": "Шпаклевка полимерная Kesto LH 20 кг",
       "unit": "шт",
       "quantity": 8.0,
-      "category": "putty",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -26,7 +26,7 @@
       "name": "Смесь цементно-песчаная (ЦПС) М300 Петролит Профи 25 кг",
       "unit": "шт",
       "quantity": 10.0,
-      "category": "consumables",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -36,7 +36,7 @@
       "name": "Профиль потолочный КМ Стандарт 60х27 мм 3 м 0,50 мм",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "plumbing",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -46,7 +46,7 @@
       "name": "Профиль потолочный направляющий КМ Стандарт 28х27 мм 3 м 0,50 мм",
       "unit": "шт",
       "quantity": 15.0,
-      "category": "plumbing",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -56,7 +56,7 @@
       "name": "Клей для плитки/ керамогранита/ камня Крепс Усиленный серый класс C1 T 25 кг",
       "unit": "шт",
       "quantity": 10.0,
-      "category": "tile",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -66,7 +66,7 @@
       "name": "Гипсокартон Knauf 2700х1200х12,5 мм влагостойкий",
       "unit": "л.",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -76,7 +76,7 @@
       "name": "Профиль углозащитный оцинкованный КМ Стандарт 25х25 мм 3 м 0,45 мм",
       "unit": "шт",
       "quantity": 7.0,
-      "category": "plumbing",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -86,7 +86,7 @@
       "name": "Затирка цементная Plitonit серая 20 кг",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -96,7 +96,7 @@
       "name": "Профиль маячковый КМ Стандарт 6 мм 3 м 0,50 мм оцинкованный",
       "unit": "шт",
       "quantity": 50.0,
-      "category": "plumbing",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -106,7 +106,7 @@
       "name": "Пленка техническая полиэтиленовая Изостронг 60 мкм 3 м рукав 1,5 м пог.м",
       "unit": "пог. м",
       "quantity": 10.0,
-      "category": "consumables",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -196,7 +196,7 @@
       "name": "Водорозетка полипропиленовая Valfex двойная 20 мм х 1/2 ВР(г) на планке (10124020П)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "electrics",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -216,7 +216,7 @@
       "name": "Паста для резьбовых соединений Masterpak 250 г в тубе",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -256,7 +256,7 @@
       "name": "Отвод Ostendorf HTB d50 мм 45° пластиковый для внутренней канализации (112120)",
       "unit": "шт",
       "quantity": 6.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -266,7 +266,7 @@
       "name": "Отвод Ostendorf HTB d50 мм 87° пластиковый для внутренней канализации (112140)",
       "unit": "шт",
       "quantity": 3.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -276,7 +276,7 @@
       "name": "Переходник Ostendorf HTR d110х50 мм пластиковый эксцентрический для внутренней канализации (115720)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -286,7 +286,7 @@
       "name": "Переходник Ostendorf HTRК d110х50 мм пластиковый эксцентрический короткий для внутренней канализации (115725)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -316,7 +316,7 @@
       "name": "Заглушка Ostendorf HTM d50 мм пластиковая для внутренней канализации (112620)",
       "unit": "шт",
       "quantity": 4.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -346,7 +346,7 @@
       "name": "Люк ревизионный Evecs ЛР пластиковый 327х427 мм врезной",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -376,7 +376,7 @@
       "name": "Отвод Ostendorf HTB d110 мм 87° пластиковый для внутренней канализации (115140)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -386,7 +386,7 @@
       "name": "Отвод Ostendorf HTB d110 мм 45° пластиковый для внутренней канализации (115120)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -396,7 +396,7 @@
       "name": "Отвод Ostendorf НТВ d32 мм 87° пластиковый для внутренней канализации (110140)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -406,7 +406,7 @@
       "name": "Отвод Ostendorf НТВ d32 мм 45° пластиковый для внутренней канализации (110120)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -416,7 +416,7 @@
       "name": "Подводка гибкая для воды VRT 1/2 ВР(г) х 1/2 НР(ш) 60 см (521375)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -426,7 +426,7 @@
       "name": "Подводка гибкая для смесителя Stout 1/2 ВР(г) х М10 штуцер 35 мм 40 см (SHF 0045 351015)",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -436,7 +436,7 @@
       "name": "Решетка вентиляционная пластиковая приточно-вытяжная Era РЦ 200х300 мм с сеткой белая",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -451,22 +451,12 @@
       "image": null
     },
     {
-      "id": "material-item",
-      "article": "",
-      "name": "Крепеж",
-      "unit": "шт",
-      "quantity": 0.0,
-      "category": "consumables",
-      "price": 0.0,
-      "image": null
-    },
-    {
       "id": "material-107164",
       "article": "107164",
       "name": "Саморезы ГД 41x3,5 мм (200 шт.)",
       "unit": "упак",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "fasteners",
       "price": 0.0,
       "image": null
     },
@@ -476,7 +466,7 @@
       "name": "Дюбель распорный Sormat NAT 6x30 мм нейлон (100 шт.)",
       "unit": "упак",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "fasteners",
       "price": 0.0,
       "image": null
     },
@@ -486,7 +476,7 @@
       "name": "Хомут сантехнический 50 мм пластик с дюбелем для крепления трубы (2 шт.)",
       "unit": "упак",
       "quantity": 8.0,
-      "category": "plumbing",
+      "category": "fasteners",
       "price": 0.0,
       "image": null
     },
@@ -496,7 +486,7 @@
       "name": "Фиксатор Valfex 20 мм для полипропиленовых труб (10160220П)",
       "unit": "шт",
       "quantity": 30.0,
-      "category": "plumbing",
+      "category": "fasteners",
       "price": 0.0,
       "image": null
     },
@@ -506,7 +496,7 @@
       "name": "Хомут сантехнический 32-34 мм пластик с дюбелем для крепления трубы (2 шт.)",
       "unit": "упак",
       "quantity": 2.0,
-      "category": "plumbing",
+      "category": "fasteners",
       "price": 0.0,
       "image": null
     },
@@ -516,7 +506,7 @@
       "name": "Хомут сантехнический 1 1/2 48-53 мм оцинкованная сталь со шпилькой и дюбелем",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "plumbing",
+      "category": "fasteners",
       "price": 0.0,
       "image": null
     },
@@ -526,7 +516,7 @@
       "name": "Хомут сантехнический 1\" 31-35 мм оцинкованная сталь со шпилькой и дюбелем (2 шт.)",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "plumbing",
+      "category": "fasteners",
       "price": 0.0,
       "image": null
     },
@@ -536,7 +526,7 @@
       "name": "Саморезы клопы 13x4,2 мм (200 шт.)",
       "unit": "упак",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "fasteners",
       "price": 0.0,
       "image": null
     },
@@ -546,17 +536,7 @@
       "name": "Саморезы ГМ 25x3,5 мм (200 шт.)",
       "unit": "упак",
       "quantity": 1.0,
-      "category": "consumables",
-      "price": 0.0,
-      "image": null
-    },
-    {
-      "id": "material-item",
-      "article": "",
-      "name": "Сантехника",
-      "unit": "шт",
-      "quantity": 0.0,
-      "category": "plumbing",
+      "category": "fasteners",
       "price": 0.0,
       "image": null
     },
@@ -566,7 +546,7 @@
       "name": "Смеситель для ванны Lavelly White Modern хром/белый однорычажный с коротким изливом с лейкой (623749)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -576,7 +556,7 @@
       "name": "Смеситель для раковины Lavelly White Modern однорычажный хром/белый (623750)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -586,7 +566,7 @@
       "name": "Пьедестал Santeri Воротынский 675 мм белый (1.3601.7.S00.00B.0)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -596,7 +576,7 @@
       "name": "Раковина Santeri Воротынский 57 см подвесная белая (1.3111.7.S00.10B.0)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -606,7 +586,7 @@
       "name": "Унитаз-компакт Gesso Home de luxe W102 с косым выпуском с сиденьем пластик белый (9 012 357)",
       "unit": "упак",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -616,7 +596,7 @@
       "name": "Ванна стальная Antika 170х70 см с ножками (А-70001)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -626,7 +606,7 @@
       "name": "Сифон для ванны Virplast 1 1/2х40 мм с выпуском d70 мм с соединением 40/50 мм (30980654)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -636,7 +616,7 @@
       "name": "Сифон для раковины и мойки Wirquin Virplast 1 1/2х40 мм с выпуском d70 мм с соединением 40/50 мм (30986170)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -646,7 +626,7 @@
       "name": "Ножки для ванны акриловой Ollie (03ол70)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -661,22 +641,12 @@
       "image": null
     },
     {
-      "id": "material-item",
-      "article": "",
-      "name": "Финишная отделка",
-      "unit": "шт",
-      "quantity": 0.0,
-      "category": "consumables",
-      "price": 0.0,
-      "image": null
-    },
-    {
       "id": "material-767966",
       "article": "767966",
       "name": "Грунт бетоноконтакт КМ-19 15 кг",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "primer",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -686,7 +656,7 @@
       "name": "Сэндвич-панель 1500х3000х10 мм утепленная для откосов белая",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -696,7 +666,7 @@
       "name": "Грунт КМ-17 глубокого проникновения 10 л",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "primer",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -706,7 +676,7 @@
       "name": "Пена монтажная профессиональная Технониколь 70 всесезонная 1000 мл",
       "unit": "шт",
       "quantity": 4.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -716,7 +686,7 @@
       "name": "Подложка под ламинат вспененная Стенофон 3 мм 1,05х10 м 10,5 кв.м",
       "unit": "рул",
       "quantity": 4.0,
-      "category": "laminate",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -726,7 +696,7 @@
       "name": "Клей для флизелиновых обоев Quelyd Спец-флизелин 65 кв.м 375 г",
       "unit": "шт",
       "quantity": 3.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -736,7 +706,7 @@
       "name": "Профиль П-образный стартовый 12х3000х10 мм белый",
       "unit": "шт",
       "quantity": 7.0,
-      "category": "plumbing",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -746,7 +716,7 @@
       "name": "Крестики для плитки 2 мм (100 шт.)",
       "unit": "упак",
       "quantity": 6.0,
-      "category": "tile",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -756,7 +726,7 @@
       "name": "Очиститель пены монтажной 500 мл",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -766,7 +736,7 @@
       "name": "Краска моющаяся Текс Профи база А белая 9 л (Колеровка в TVT F313 (2 шт))",
       "unit": "шт",
       "quantity": 4.0,
-      "category": "paint",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -776,7 +746,7 @@
       "name": "Герметик силиконовый санитарный Tytan Professional белый 280 мл",
       "unit": "шт",
       "quantity": 3.0,
-      "category": "tools",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -786,7 +756,7 @@
       "name": "Обои под покраску виниловые на флизелиновой основе фактурные антивандальные Ateliero Рейн 2512АВ-140 (1,06х25 м) плотность 140 г/кв.м",
       "unit": "рул",
       "quantity": 5.0,
-      "category": "paint",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -796,7 +766,7 @@
       "name": "Краска фасадная Aura Fasad Expo акриловая база А белая 2,7 л",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "paint",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -806,7 +776,7 @@
       "name": "Подоконник ПВХ 500х2000х20 мм белый матовый",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -816,7 +786,7 @@
       "name": "Заглушка торцевая для ПВХ подоконников белая",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -826,7 +796,7 @@
       "name": "Плинтус ПВХ напольный Идеал Классик 70 мм белый 2200 мм со съемной панелью (аналог уточнить)1136750",
       "unit": "шт",
       "quantity": 16.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -836,7 +806,7 @@
       "name": "Уголок ПВХ 20х20х2700 мм гладкий белый",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "plumbing",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -846,7 +816,7 @@
       "name": "Угол внутренний Идеал Классик 70 мм белый (2 шт.)",
       "unit": "упак",
       "quantity": 5.0,
-      "category": "plumbing",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -856,7 +826,7 @@
       "name": "Соединитель Идеал Классик 70 мм белый (2 шт.)",
       "unit": "упак",
       "quantity": 5.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -866,7 +836,7 @@
       "name": "Угол наружный Идеал Классик 70 мм белый (2 шт.)",
       "unit": "упак",
       "quantity": 3.0,
-      "category": "plumbing",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -876,7 +846,7 @@
       "name": "Заглушка торцевая Идеал Классик 70 мм белая левая-правая (2 шт.)",
       "unit": "шт",
       "quantity": 5.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -886,7 +856,7 @@
       "name": "Уголок ПВХ 15х15х2700 мм глянцевый 007-0 черный",
       "unit": "шт",
       "quantity": 3.0,
-      "category": "plumbing",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -896,7 +866,7 @@
       "name": "Фиксатор Corsa Deco круглая розетка матовый никель",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "electrics",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -906,7 +876,7 @@
       "name": "Ручка дверная Corsa Deco Rowan круглая розетка матовый никель",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "doors",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -916,7 +886,7 @@
       "name": "Упор дверной Punto матовый никель",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "doors",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -926,7 +896,7 @@
       "name": "Петля Corsa Deco карточная универсальная неразъемная 100х75 мм матовый никель",
       "unit": "шт",
       "quantity": 4.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -936,7 +906,7 @@
       "name": "Профиль для напольных покрытий до 7 мм Т-образный алюминиевый 2700х20х8,5 мм",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "plumbing",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -946,7 +916,7 @@
       "name": "Порог алюминиевый угловой внутренний 19х19х900 мм дуб серый",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -956,7 +926,7 @@
       "name": "Ламинат 33 класс Эггер Хоум дуб барония серый 1,994 кв.м 8 мм с фаской влагостойкий",
       "unit": "упак",
       "quantity": 15.0,
-      "category": "laminate",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -966,7 +936,7 @@
       "name": "Плитка напольная Axima Наварра серый 327x327x8 мм (13 шт.=1,39 кв.м)",
       "unit": "упак",
       "quantity": 13.0,
-      "category": "tile",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -976,7 +946,7 @@
       "name": "Плитка облицовочная Нефрит Фьюжен серая 400х200х8 мм (15 шт.=1,2 кв.м)",
       "unit": "упак",
       "quantity": 21.0,
-      "category": "tile",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -986,17 +956,7 @@
       "name": "Плитка облицовочная Нефрит Слим серая 600x300x9 мм (10 шт.=1,8 кв.м)",
       "unit": "упак",
       "quantity": 1.0,
-      "category": "tile",
-      "price": 0.0,
-      "image": null
-    },
-    {
-      "id": "material-item",
-      "article": "",
-      "name": "Электрика",
-      "unit": "шт",
-      "quantity": 0.0,
-      "category": "electrics",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -1006,7 +966,7 @@
       "name": "Лампа накаливания E27 95 Вт 220 В груша прозрачная",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "consumables",
+      "category": "electrics",
       "price": 0.0,
       "image": null
     },
@@ -1046,7 +1006,7 @@
       "name": "Патрон для лампы E27 Svet карболитовый IP20 (1011-00030)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "electrics",
       "price": 0.0,
       "image": null
     },
@@ -1057,16 +1017,6 @@
       "unit": "пог. м",
       "quantity": 10.0,
       "category": "electrics",
-      "price": 0.0,
-      "image": null
-    },
-    {
-      "id": "material-item",
-      "article": "",
-      "name": "Инструмент",
-      "unit": "шт",
-      "quantity": 0.0,
-      "category": "consumables",
       "price": 0.0,
       "image": null
     },
@@ -1086,7 +1036,7 @@
       "name": "Наждачная бумага Mirox SE 115 мм 5 м Р120",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1096,7 +1046,7 @@
       "name": "Лента малярная Beorol белая 48 мм 50 м (BK4850PT)",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1116,7 +1066,7 @@
       "name": "Бур SDS-plus Практика 6х160 мм (033-604)",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1126,7 +1076,7 @@
       "name": "Респиратор Исток 1ФК FFP1 с клапаном выдоха формованный (РЕС010-И)",
       "unit": "шт",
       "quantity": 3.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1136,7 +1086,7 @@
       "name": "Бита КМ (815720) PH2 магнитная 50 мм",
       "unit": "шт",
       "quantity": 2.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1156,7 +1106,7 @@
       "name": "Пилки для лобзика Практика T101В по ламинату L75 мм чистый рез (2 шт.) (034-434)",
       "unit": "упак",
       "quantity": 1.0,
-      "category": "laminate",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1166,7 +1116,7 @@
       "name": "Мешок для мусора 75 л 550х950 мм полипропиленовый белый",
       "unit": "шт",
       "quantity": 20.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1176,7 +1126,7 @@
       "name": "Лезвие для ножа Hesler 18 мм прямое (10 шт.)",
       "unit": "упак",
       "quantity": 2.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1186,7 +1136,7 @@
       "name": "Пистолет для монтажной пены Hesler (675307)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1206,7 +1156,7 @@
       "name": "Рулетка Hesler с автостопом 5 м x 19 мм",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1226,7 +1176,7 @@
       "name": "Нож строительный Hesler 18 мм с сегментированным лезвием стальной корпус",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1236,7 +1186,7 @@
       "name": "Перчатки х/б 4 нити с ПВХ покрытием белые 9 (L)",
       "unit": "пар",
       "quantity": 5.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1256,7 +1206,7 @@
       "name": "Мешок для пылесоса Karcher к моделям WD 2/WD 3 нетканый материал (4 шт.) (2.863-314.0)",
       "unit": "упак",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1266,7 +1216,7 @@
       "name": "Коронка алмазная Trio-Diamond (400068) по керамограниту d68 мм",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1276,7 +1226,7 @@
       "name": "Коронка алмазная Trio-Diamond (400032) по керамограниту d32 мм",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1296,7 +1246,7 @@
       "name": "Диск алмазный по керамике Trio-Diamond Керамик Pro 125х22,2х1,1 мм сплошной сухой рез (370125)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1306,7 +1256,7 @@
       "name": "Очки защитные Исток открытые с прозрачными линзами (ОЧК016)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1316,7 +1266,7 @@
       "name": "Сверло по плитке и стеклу Matrix 6х75 мм (72816/EA08-606/9383)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "tile",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1326,7 +1276,7 @@
       "name": "Угольник строительный Hesler 350 мм стальной",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "plumbing",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1336,7 +1286,7 @@
       "name": "Ведро строительное пластиковое РВ Пласт усиленное 20 л",
       "unit": "шт",
       "quantity": 4.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1356,7 +1306,7 @@
       "name": "Ванночка для краски 370х340 мм к валикам до 250 мм",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "paint",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1366,7 +1316,7 @@
       "name": "Лента клейкая упаковочная Unibob прозрачная 48 мм 66 м",
       "unit": "рул",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1376,7 +1326,7 @@
       "name": "Карандаш строительный малярный Hesler (2 шт.)",
       "unit": "упак",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1386,17 +1336,7 @@
       "name": "Маркер перманентный Crown Multi Marker Super Slim черный грифель 1 мм",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
-      "price": 0.0,
-      "image": null
-    },
-    {
-      "id": "material-item",
-      "article": "",
-      "name": "Технические товары",
-      "unit": "шт",
-      "quantity": 0.0,
-      "category": "consumables",
+      "category": "tools",
       "price": 0.0,
       "image": null
     },
@@ -1406,7 +1346,7 @@
       "name": "Ветошь 10 кг Laut белая эконом",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "technical",
       "price": 0.0,
       "image": null
     },
@@ -1416,7 +1356,7 @@
       "name": "Щетка для пола 300 мм Apollo Nuovo с черенком",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "technical",
       "price": 0.0,
       "image": null
     },
@@ -1426,17 +1366,7 @@
       "name": "Средство Grass для мытья поверхностей универсальное 5 л",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
-      "price": 0.0,
-      "image": null
-    },
-    {
-      "id": "material-item",
-      "article": "",
-      "name": "Двери",
-      "unit": "шт",
-      "quantity": 0.0,
-      "category": "doors",
+      "category": "technical",
       "price": 0.0,
       "image": null
     },
@@ -1496,7 +1426,7 @@
       "name": "Добор декор",
       "unit": "шт",
       "quantity": 6.0,
-      "category": "consumables",
+      "category": "doors",
       "price": 0.0,
       "image": null
     },
@@ -1536,7 +1466,7 @@
       "name": "Затирка цементная эластичная Plitonit Colorit Premium белая пакет 2 кг",
       "unit": "шт",
       "quantity": 3.0,
-      "category": "consumables",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -1546,7 +1476,7 @@
       "name": "Затирка цементная эластичная Plitonit Colorit Premium шоколад пакет 2 кг",
       "unit": "шт",
       "quantity": 3.0,
-      "category": "consumables",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -1556,7 +1486,7 @@
       "name": "Раковина для тумбы Aquanet Flat 60 см (254363)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -1566,7 +1496,7 @@
       "name": "Тумба под раковину Акванет Джейн 60 см подвесная мисти грин (00335432)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -1576,7 +1506,7 @@
       "name": "Инсталляция Grohe Rapid SL для подвесного унитаза с кнопкой хром (38772001)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -1586,7 +1516,7 @@
       "name": "Унитаз подвесной Corsa Deco DX Rimless безободковый с сиденьем дюропласт микролифт (WHDX530RS)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -1596,7 +1526,7 @@
       "name": "Ванна акриловая Cersanit Lorena 170х70 см без ножек (WP-LORENA*170-W/63323)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -1606,7 +1536,7 @@
       "name": "Плинтус ПВХ напольный Идеал Классик 70 мм белый 2200 мм со съемной панелью",
       "unit": "шт",
       "quantity": 16.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -1616,7 +1546,7 @@
       "name": "Уголок ПВХ 15х15х2700 мм глянцевый 002-0 светло-серый",
       "unit": "шт",
       "quantity": 7.0,
-      "category": "plumbing",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -1626,7 +1556,7 @@
       "name": "Обои компакт-винил на флизелиновой основе Victoria Stenova Ideal 287392 (1,06х10,05 м)",
       "unit": "рул",
       "quantity": 12.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -1636,7 +1566,7 @@
       "name": "Плитка облицовочная Gracia Ceramica Marella 01 белая 900х300х8 мм (5 шт.=1,35 кв.м)",
       "unit": "упак",
       "quantity": 16.0,
-      "category": "tile",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -1646,7 +1576,7 @@
       "name": "Керамогранит Cersanit Yasmin коричневый 598х185х7,5 мм (11 шт.=1,216 кв.м)",
       "unit": "упак",
       "quantity": 8.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -1656,7 +1586,7 @@
       "name": "Керамогранит Grasaro Softmarble белый 600х600х9 мм (5 шт.=1,8 кв.м)",
       "unit": "упак",
       "quantity": 17.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -1667,16 +1597,6 @@
       "unit": "шт",
       "quantity": 1.0,
       "category": "tools",
-      "price": 0.0,
-      "image": null
-    },
-    {
-      "id": "material-item",
-      "article": "Двери белые с фаской Аэлита",
-      "name": "Завертка дверная Никель",
-      "unit": "шт",
-      "quantity": 1.0,
-      "category": "doors",
       "price": 0.0,
       "image": null
     },
@@ -1716,7 +1636,7 @@
       "name": "Потолки",
       "unit": "шт",
       "quantity": 0.0,
-      "category": "consumables",
+      "category": "doors",
       "price": 0.0,
       "image": null
     },
@@ -1726,7 +1646,7 @@
       "name": "Натяжные потолки",
       "unit": "м²",
       "quantity": 1200.0,
-      "category": "consumables",
+      "category": "doors",
       "price": 0.0,
       "image": null
     },
@@ -1736,7 +1656,7 @@
       "name": "Шпаклевка полимерная Plitonit Кп Pro финишная белая 20 кг",
       "unit": "шт",
       "quantity": 8.0,
-      "category": "putty",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -1746,7 +1666,7 @@
       "name": "Затирка эпоксидная Plitonit Colorit EasyFill графитовая 2 кг",
       "unit": "шт",
       "quantity": 3.0,
-      "category": "consumables",
+      "category": "building",
       "price": 0.0,
       "image": null
     },
@@ -1766,7 +1686,7 @@
       "name": "Смеситель для раковины Corsa Deco DS однорычажный черный (FBDSB)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -1776,7 +1696,7 @@
       "name": "Тумба под раковину Акванет Джейн 60 см подвесная маренго (00335427)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -1786,7 +1706,7 @@
       "name": "Смеситель для раковины Milardo Rora однорычажный черный (RORBL00M01)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -1796,7 +1716,7 @@
       "name": "Душевая система Corsa Deco TX с верхним душем с лейкой с изливом черная (SSFTX250QB)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -1806,7 +1726,7 @@
       "name": "Сифон для раковины АНИ пласт 1 1/4х40 мм с выпуском 40/50 мм с соединением 40/50 мм (C2015)",
       "unit": "шт",
       "quantity": 1.0,
-      "category": "consumables",
+      "category": "plumbing",
       "price": 0.0,
       "image": null
     },
@@ -1816,7 +1736,7 @@
       "name": "Уголок ПВХ 15х15х2700 мм гладкий белый",
       "unit": "шт",
       "quantity": 7.0,
-      "category": "plumbing",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -1826,7 +1746,7 @@
       "name": "Керамогранит Уральский Гранит Гранитея Таганай G345 темно-серый матовый 600х600х9 мм (4 шт.=1,44 кв.м)",
       "unit": "упак",
       "quantity": 8.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     },
@@ -1836,7 +1756,7 @@
       "name": "Керамогранит Cersanit Yasmin темно-бежевый 598х185х7,5 мм (11 шт.=1,216 кв.м)",
       "unit": "упак",
       "quantity": 10.0,
-      "category": "consumables",
+      "category": "finish",
       "price": 0.0,
       "image": null
     }
@@ -2083,11 +2003,6 @@
     },
     {
       "styleId": "provence",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "provence",
       "materialId": "material-107164",
       "quantity": 1.0
     },
@@ -2130,11 +2045,6 @@
       "styleId": "provence",
       "materialId": "material-107195",
       "quantity": 1.0
-    },
-    {
-      "styleId": "provence",
-      "materialId": "material-item",
-      "quantity": 0.0
     },
     {
       "styleId": "provence",
@@ -2185,11 +2095,6 @@
       "styleId": "provence",
       "materialId": "material-683212",
       "quantity": 1.0
-    },
-    {
-      "styleId": "provence",
-      "materialId": "material-item",
-      "quantity": 0.0
     },
     {
       "styleId": "provence",
@@ -2353,11 +2258,6 @@
     },
     {
       "styleId": "provence",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "provence",
       "materialId": "material-104406",
       "quantity": 2.0
     },
@@ -2385,11 +2285,6 @@
       "styleId": "provence",
       "materialId": "material-103087",
       "quantity": 10.0
-    },
-    {
-      "styleId": "provence",
-      "materialId": "material-item",
-      "quantity": 0.0
     },
     {
       "styleId": "provence",
@@ -2553,11 +2448,6 @@
     },
     {
       "styleId": "provence",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "provence",
       "materialId": "material-1082689",
       "quantity": 1.0
     },
@@ -2570,11 +2460,6 @@
       "styleId": "provence",
       "materialId": "material-1010658",
       "quantity": 1.0
-    },
-    {
-      "styleId": "provence",
-      "materialId": "material-item",
-      "quantity": 0.0
     },
     {
       "styleId": "provence",
@@ -2858,11 +2743,6 @@
     },
     {
       "styleId": "grunge",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "grunge",
       "materialId": "material-107164",
       "quantity": 1.0
     },
@@ -2905,11 +2785,6 @@
       "styleId": "grunge",
       "materialId": "material-107195",
       "quantity": 1.0
-    },
-    {
-      "styleId": "grunge",
-      "materialId": "material-item",
-      "quantity": 0.0
     },
     {
       "styleId": "grunge",
@@ -2965,11 +2840,6 @@
       "styleId": "grunge",
       "materialId": "material-600674",
       "quantity": 1.0
-    },
-    {
-      "styleId": "grunge",
-      "materialId": "material-item",
-      "quantity": 0.0
     },
     {
       "styleId": "grunge",
@@ -3113,11 +2983,6 @@
     },
     {
       "styleId": "grunge",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "grunge",
       "materialId": "material-104406",
       "quantity": 2.0
     },
@@ -3145,11 +3010,6 @@
       "styleId": "grunge",
       "materialId": "material-103087",
       "quantity": 10.0
-    },
-    {
-      "styleId": "grunge",
-      "materialId": "material-item",
-      "quantity": 0.0
     },
     {
       "styleId": "grunge",
@@ -3313,11 +3173,6 @@
     },
     {
       "styleId": "grunge",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "grunge",
       "materialId": "material-1082689",
       "quantity": 1.0
     },
@@ -3329,16 +3184,6 @@
     {
       "styleId": "grunge",
       "materialId": "material-1010658",
-      "quantity": 1.0
-    },
-    {
-      "styleId": "grunge",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "grunge",
-      "materialId": "material-item",
       "quantity": 1.0
     },
     {
@@ -3623,11 +3468,6 @@
     },
     {
       "styleId": "moire",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "moire",
       "materialId": "material-107164",
       "quantity": 1.0
     },
@@ -3673,11 +3513,6 @@
     },
     {
       "styleId": "moire",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "moire",
       "materialId": "material-666310",
       "quantity": 1.0
     },
@@ -3720,11 +3555,6 @@
       "styleId": "moire",
       "materialId": "material-1096852",
       "quantity": 1.0
-    },
-    {
-      "styleId": "moire",
-      "materialId": "material-item",
-      "quantity": 0.0
     },
     {
       "styleId": "moire",
@@ -3858,11 +3688,6 @@
     },
     {
       "styleId": "moire",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "moire",
       "materialId": "material-104406",
       "quantity": 2.0
     },
@@ -3890,11 +3715,6 @@
       "styleId": "moire",
       "materialId": "material-103087",
       "quantity": 10.0
-    },
-    {
-      "styleId": "moire",
-      "materialId": "material-item",
-      "quantity": 0.0
     },
     {
       "styleId": "moire",
@@ -4058,11 +3878,6 @@
     },
     {
       "styleId": "moire",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "moire",
       "materialId": "material-1082689",
       "quantity": 1.0
     },
@@ -4074,16 +3889,6 @@
     {
       "styleId": "moire",
       "materialId": "material-1010658",
-      "quantity": 1.0
-    },
-    {
-      "styleId": "moire",
-      "materialId": "material-item",
-      "quantity": 0.0
-    },
-    {
-      "styleId": "moire",
-      "materialId": "material-item",
       "quantity": 1.0
     },
     {
