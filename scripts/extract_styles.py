@@ -14,52 +14,75 @@ STYLE_ALIASES = {
     'Муар': 'moire',
 }
 
-CATEGORY_HINTS = [
-    ('штукатур', 'plaster'),
-    ('шпакл', 'putty'),
-    ('грунт', 'primer'),
-    ('краск', 'paint'),
-    ('плитк', 'tile'),
-    ('ламин', 'laminate'),
-    ('двер', 'doors'),
-    ('труб', 'plumbing'),
-    ('муфт', 'plumbing'),
-    ('кран', 'plumbing'),
-    ('угол', 'plumbing'),
-    ('тройник', 'plumbing'),
-    ('профил', 'plumbing'),
-    ('сантех', 'plumbing'),
-    ('электр', 'electrics'),
-    ('кабель', 'electrics'),
-    ('розет', 'electrics'),
-    ('выключ', 'electrics'),
-    ('свет', 'electrics'),
-    ('пена', 'consumables'),
-    ('лента', 'consumables'),
-    ('пленк', 'consumables'),
-    ('саморез', 'consumables'),
-    ('дюбел', 'consumables'),
-    ('сетк', 'consumables'),
-    ('затир', 'consumables'),
-    ('клей', 'consumables'),
-    ('гипсокар', 'consumables'),
-    ('монтаж', 'consumables'),
-    ('валик', 'tools'),
-    ('кист', 'tools'),
-    ('шпатель', 'tools'),
-    ('уровен', 'tools'),
-    ('правил', 'tools'),
-    ('плиткорез', 'tools'),
-    ('миксер', 'tools'),
-    ('кельм', 'tools'),
-    ('гермет', 'tools'),
-    ('респира', 'consumables'),
-]
+SECTION_HINTS = {
+    'строительные материалы': 'building',
+    'инженерные системы': 'plumbing',
+    'крепеж': 'fasteners',
+    'финишная отделка': 'finish',
+    'электрика': 'electrics',
+    'инструмент': 'tools',
+    'технические товары': 'technical',
+    'двери': 'doors',
+    'сантехника': 'plumbing',
+}
 
 
-def infer_category(name: str) -> str:
+def infer_category_from_section(section_name: str | None) -> str | None:
+    if not section_name:
+        return None
+    text = (section_name or '').lower()
+    for keyword, category in SECTION_HINTS.items():
+        if keyword in text:
+            return category
+    return None
+
+
+def infer_category(name: str, section_name: str | None = None) -> str:
     text = (name or '').lower()
-    for keyword, cat in CATEGORY_HINTS:
+    section_category = infer_category_from_section(section_name)
+    if section_category:
+        return section_category
+    for keyword, cat in [
+        ('штукатур', 'plaster'),
+        ('шпакл', 'putty'),
+        ('грунт', 'primer'),
+        ('краск', 'paint'),
+        ('плитк', 'tile'),
+        ('ламин', 'laminate'),
+        ('двер', 'doors'),
+        ('труб', 'plumbing'),
+        ('муфт', 'plumbing'),
+        ('кран', 'plumbing'),
+        ('угол', 'plumbing'),
+        ('тройник', 'plumbing'),
+        ('профил', 'plumbing'),
+        ('сантех', 'plumbing'),
+        ('электр', 'electrics'),
+        ('кабель', 'electrics'),
+        ('розет', 'electrics'),
+        ('выключ', 'electrics'),
+        ('свет', 'electrics'),
+        ('пена', 'consumables'),
+        ('лента', 'consumables'),
+        ('пленк', 'consumables'),
+        ('саморез', 'consumables'),
+        ('дюбел', 'consumables'),
+        ('сетк', 'consumables'),
+        ('затир', 'consumables'),
+        ('клей', 'consumables'),
+        ('гипсокар', 'consumables'),
+        ('монтаж', 'consumables'),
+        ('валик', 'tools'),
+        ('кист', 'tools'),
+        ('шпатель', 'tools'),
+        ('уровен', 'tools'),
+        ('правил', 'tools'),
+        ('плиткорез', 'tools'),
+        ('миксер', 'tools'),
+        ('кельм', 'tools'),
+        ('гермет', 'tools'),
+        ('респира', 'consumables'),
+    ]:
         if keyword in text:
             return cat
     return 'consumables'
@@ -98,6 +121,7 @@ def parse_workbook(path: Path, style_name: str):
             headers.append(str(value).strip())
 
     material_rows = []
+    current_section = None
     for row in rows[header_row + 1:]:
         if not row:
             continue
@@ -105,16 +129,27 @@ def parse_workbook(path: Path, style_name: str):
             continue
         if all((v is None or v == '' or (isinstance(v, float) and v == 0)) for v in row):
             continue
-        if any(isinstance(v, str) and ('Строительные материалы' in v or 'Инженерные системы' in v) for v in row):
+
+        section_name = None
+        for value in row:
+            if isinstance(value, str) and value.strip():
+                text = value.strip().lower()
+                if any(keyword in text for keyword in SECTION_HINTS):
+                    section_name = value.strip()
+                    break
+
+        if section_name:
+            current_section = section_name
             continue
+
         if len(row) < 3:
             continue
         if isinstance(row[1], str) and ('Название' in row[1] or 'Код товара' in row[1]):
             continue
-        material_rows.append(row)
+        material_rows.append((row, current_section))
 
     materials = []
-    for row in material_rows:
+    for row, section_name in material_rows:
         if not row:
             continue
         article = ''
@@ -154,7 +189,7 @@ def parse_workbook(path: Path, style_name: str):
             'name': name,
             'unit': unit or 'шт',
             'quantity': float(quantity),
-            'category': infer_category(name),
+            'category': infer_category(name, section_name),
             'price': round(float(price), 2),
             'image': None,
         })

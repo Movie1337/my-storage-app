@@ -5,7 +5,7 @@ import { MaterialRow } from './MaterialRow';
 interface MaterialSectionProps {
   title: string;
   items: CalculatedMaterial[];
-  onQuantityChange: (id: string, quantity: number) => void;
+  onQuantityChange: (id: string, quantity: number, group: CalculatedMaterial['group']) => void;
   onToggle?: (id: string, selected: boolean) => void;
 }
 

@@ -2,6 +2,11 @@ import type { MaterialDefinition } from '../types/styles';
 import { materialService } from './MaterialService';
 import { styleService } from './StyleService';
 
+interface CalculatedMaterialLike extends MaterialDefinition {
+  displayCategoryLabel: string;
+  displayCategory: string;
+}
+
 export interface CalculatorInputLike {
   apartmentType: string;
   area: number;
@@ -10,12 +15,12 @@ export interface CalculatorInputLike {
 }
 
 export interface CalculatorService {
-  calculate(input: CalculatorInputLike): Promise<MaterialDefinition[]>;
+  calculate(input: CalculatorInputLike): Promise<CalculatedMaterialLike[]>;
 }
 
 class CalculatorServiceImpl implements CalculatorService {
   private getGroup(category: string): 'materials' | 'consumables' | 'tools' {
-    if (category === 'consumables') {
+    if (category === 'consumables' || category === 'technical') {
       return 'consumables';
     }
     if (category === 'tools') {
@@ -24,21 +29,55 @@ class CalculatorServiceImpl implements CalculatorService {
     return 'materials';
   }
 
-  private normalizeCategory(name: string): string {
-    const text = name.toLowerCase();
-    if (/(штукатур|гипс|шпакл|грунт|краск|плитк|ламин|двер|труб|муфт|кран|профил|сантех|розет|кабель|электр|свет)/.test(text)) {
-      return 'materials';
-    }
-    if (/(пена|лента|пленк|саморез|дюбел|сетк|затир|клей|гипсокар|респира|монтаж|паста|смазк)/.test(text)) {
-      return 'consumables';
-    }
-    if (/(валик|кист|шпатель|уровен|правил|плиткорез|миксер|кельм|гермет)/.test(text)) {
+  private normalizeCategory(category: string): string {
+    if (category === 'tools') {
       return 'tools';
+    }
+    if (category === 'consumables' || category === 'technical') {
+      return 'consumables';
     }
     return 'materials';
   }
 
-  async calculate(input: CalculatorInputLike): Promise<MaterialDefinition[]> {
+  private getDisplayCategory(material: { name: string; category: string }): { label: string; key: string } {
+    const rawCategory = (material.category || '').toLowerCase();
+    const text = material.name.toLowerCase();
+
+    if (rawCategory === 'plumbing') {
+      if (/(труба|угол|тройник|муфта|переход|шланг|подводка|фит|кран|резьб|врез|канализа|водороз|хомут|канал|трубоп|профил|потол|переходник)/.test(text)) {
+        return { label: 'Инженерные системы', key: 'engineering' };
+      }
+      if (/(смес|ванн|раков|сифон|инстал|душ|унитаз|мойк|биде|душевая|зерк|шайб|кнопк)/.test(text)) {
+        return { label: 'Сантехника', key: 'plumbing' };
+      }
+      return { label: 'Инженерные системы', key: 'engineering' };
+    }
+    if (rawCategory === 'fasteners') {
+      return { label: 'Крепеж', key: 'fasteners' };
+    }
+    if (rawCategory === 'doors') {
+      return { label: 'Двери', key: 'doors' };
+    }
+    if (rawCategory === 'electrics') {
+      return { label: 'Электрика', key: 'electrics' };
+    }
+    if (rawCategory === 'tools') {
+      return { label: 'Инструмент', key: 'tools' };
+    }
+    if (rawCategory === 'technical') {
+      return { label: 'Технические товары', key: 'technical' };
+    }
+    if (rawCategory === 'finish') {
+      return { label: 'Финишная отделка', key: 'finish' };
+    }
+    if (rawCategory === 'building') {
+      return { label: 'Строительный материал', key: 'building' };
+    }
+
+    return { label: 'Строительный материал', key: 'building' };
+  }
+
+  async calculate(input: CalculatorInputLike): Promise<CalculatedMaterialLike[]> {
     const [materials, style] = await Promise.all([
       materialService.getAllMaterials(),
       styleService.getStyleById(input.styleId),
@@ -50,20 +89,40 @@ class CalculatorServiceImpl implements CalculatorService {
 
     const styleMaterials = await styleService.getMaterialsByStyle(style.id);
 
-    const areaFactor = input.area > 0 ? input.area / 36 : 1;
-    const heightFactor = input.ceilingHeight > 0 ? input.ceilingHeight / 2.7 : 1;
-    const multiplier = areaFactor * heightFactor;
+    const areaFactor = input.area > 0 ? 0.35 + input.area / 220 : 0.8;
+    const heightFactor = input.ceilingHeight > 0 ? 0.8 + (input.ceilingHeight - 2.7) * 0.06 : 0.9;
+    const baseMultiplier = Math.max(0.5, Math.min(1.05, areaFactor * heightFactor));
 
-    return Promise.resolve(
-      styleMaterials.map((material) => {
-        const category = this.normalizeCategory(material.name);
+    const computed = styleMaterials
+      .map((material) => {
+        const text = material.name.toLowerCase();
+        if (/(натяж|потолки?)/.test(text)) {
+          return null;
+        }
+
+        const category = this.normalizeCategory(material.category);
+        const displayCategory = this.getDisplayCategory(material);
+        const categoryFactor = /(профил|труб|муфт|кран|угол|тройник|сантех|смес|раков|сифон|инстал|душ|двер|розет|кабель|автомат|щит|свет)/.test(text)
+          ? 0.15
+          : /(пена|лента|пленк|саморез|дюбел|сетк|затир|клей|гипсокар|монтаж|паста|гермет)/.test(text)
+            ? 0.18
+            : /(валик|кист|шпатель|уровен|правил|плиткорез|миксер|кельм)/.test(text)
+              ? 0.12
+              : 0.2;
+
+        const quantity = Math.max(1, Math.round(material.quantity * baseMultiplier * categoryFactor));
+
         return {
           ...material,
           category,
-          quantity: Number((material.quantity * multiplier).toFixed(2)),
+          quantity,
+          displayCategoryLabel: displayCategory.label,
+          displayCategory: displayCategory.key,
         };
-      }),
-    );
+      })
+      .filter((item): item is CalculatedMaterialLike => item !== null);
+
+    return Promise.resolve(computed);
   }
 }
 

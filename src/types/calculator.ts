@@ -15,6 +15,8 @@ export type MaterialCategory =
   | 'consumables'
   | 'tools';
 
+export type MaterialDisplayCategory = 'building' | 'plumbing' | 'fasteners' | 'finish' | 'electrics' | 'tools' | 'technical' | 'doors';
+
 export type CalculationGroup = 'materials' | 'consumables' | 'tools';
 
 export interface ApartmentOption {
@@ -48,6 +50,7 @@ export interface CalculatedMaterial extends WarehouseMaterial {
   group: CalculationGroup;
   quantity: number;
   selected: boolean;
+  displayCategoryLabel: string;
 }
 
 export interface CalculatorInput {
