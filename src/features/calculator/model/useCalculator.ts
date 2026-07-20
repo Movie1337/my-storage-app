@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { CalculatedMaterial, CalculatorInput, CalculatorResult, CalculatorSummary } from '../../../types/calculator';
 import { calculatorService } from '../../../services/CalculatorService';
 import { styleService } from '../../../services/StyleService';
-import { warehouseService } from '../../../services/WarehouseService';
+import { warehouseService } from '../../../services/warehouseService';
 import type { MaterialDefinition } from '../../../types/styles';
 
 const initialInput: CalculatorInput = {
