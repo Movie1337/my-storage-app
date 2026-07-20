@@ -11,6 +11,7 @@ export function CalculatorPage() {
     result,
     summary,
     loading,
+    styleName,
     setInput,
     calculate,
     createRequest,
@@ -95,6 +96,7 @@ export function CalculatorPage() {
             <SummaryPanel
               input={input}
               summary={summary}
+              styleName={styleName}
               disabled={!result}
               onCreateRequest={handleCreateRequest}
             />

@@ -1,0 +1,4145 @@
+{
+  "materials": [
+    {
+      "id": "material-104843",
+      "article": "104843",
+      "name": "Штукатурка гипсовая Knauf МП-75 машинная 30 кг",
+      "unit": "шт",
+      "quantity": 50.0,
+      "category": "plaster",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-137322",
+      "article": "137322",
+      "name": "Шпаклевка полимерная Kesto LH 20 кг",
+      "unit": "шт",
+      "quantity": 8.0,
+      "category": "putty",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-133344",
+      "article": "133344",
+      "name": "Смесь цементно-песчаная (ЦПС) М300 Петролит Профи 25 кг",
+      "unit": "шт",
+      "quantity": 10.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-106474",
+      "article": "106474",
+      "name": "Профиль потолочный КМ Стандарт 60х27 мм 3 м 0,50 мм",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-106484",
+      "article": "106484",
+      "name": "Профиль потолочный направляющий КМ Стандарт 28х27 мм 3 м 0,50 мм",
+      "unit": "шт",
+      "quantity": 15.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-104176",
+      "article": "104176",
+      "name": "Клей для плитки/ керамогранита/ камня Крепс Усиленный серый класс C1 T 25 кг",
+      "unit": "шт",
+      "quantity": 10.0,
+      "category": "tile",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-101935",
+      "article": "101935",
+      "name": "Гипсокартон Knauf 2700х1200х12,5 мм влагостойкий",
+      "unit": "л.",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-144739",
+      "article": "144739",
+      "name": "Профиль углозащитный оцинкованный КМ Стандарт 25х25 мм 3 м 0,45 мм",
+      "unit": "шт",
+      "quantity": 7.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-131063",
+      "article": "131063",
+      "name": "Затирка цементная Plitonit серая 20 кг",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-141512",
+      "article": "141512",
+      "name": "Профиль маячковый КМ Стандарт 6 мм 3 м 0,50 мм оцинкованный",
+      "unit": "шт",
+      "quantity": 50.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-105946",
+      "article": "105946",
+      "name": "Пленка техническая полиэтиленовая Изостронг 60 мкм 3 м рукав 1,5 м пог.м",
+      "unit": "пог. м",
+      "quantity": 10.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108519",
+      "article": "108519",
+      "name": "Труба полипропиленовая Valfex 32х2000 мм PN20",
+      "unit": "шт",
+      "quantity": 10.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108525",
+      "article": "108525",
+      "name": "Труба полипропиленовая Valfex армированная стекловолокном 20х2000 мм PN25",
+      "unit": "шт",
+      "quantity": 15.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108738",
+      "article": "108738",
+      "name": "Угол полипропиленовый Valfex 20 мм 45° (10107020П)",
+      "unit": "шт",
+      "quantity": 20.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108739",
+      "article": "108739",
+      "name": "Угол полипропиленовый Valfex 20 мм 90° (10108020П)",
+      "unit": "шт",
+      "quantity": 20.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108373",
+      "article": "108373",
+      "name": "Тройник полипропиленовый Valfex 20 х 20 х 20 мм (10111020П)",
+      "unit": "шт",
+      "quantity": 10.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-143520",
+      "article": "143520",
+      "name": "Кран шаровой латунный Valtec 3/4 НР(ш) х 1/2 НР(ш) к бытовой технике мини угловой (VT.392.N.05)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-104904",
+      "article": "104904",
+      "name": "Муфта полипропиленовая Valfex 20 мм х 1/2 НР(ш) (10130020П)",
+      "unit": "шт",
+      "quantity": 10.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-104903",
+      "article": "104903",
+      "name": "Муфта полипропиленовая Valfex 20 мм х 1/2 ВР(г) (10129020П)",
+      "unit": "шт",
+      "quantity": 10.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-105875",
+      "article": "105875",
+      "name": "Водорозетка полипропиленовая Valfex двойная 20 мм х 1/2 ВР(г) на планке (10124020П)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "electrics",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1207492",
+      "article": "1207492",
+      "name": "Лен сантехнический Aquaflax Nano 100 г",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1204902",
+      "article": "1204902",
+      "name": "Паста для резьбовых соединений Masterpak 250 г в тубе",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1171894",
+      "article": "1171894",
+      "name": "Смазка сантехническая для канализационных труб MasterPlast 70 г",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108475",
+      "article": "108475",
+      "name": "Труба канализационная Ostendorf HTEM d50x500 мм пластиковая для внутренней канализации (112020)",
+      "unit": "шт",
+      "quantity": 5.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108470",
+      "article": "108470",
+      "name": "Труба канализационная Ostendorf HTEM d50x1000 мм пластиковая для внутренней канализации (112040)",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-105423",
+      "article": "105423",
+      "name": "Отвод Ostendorf HTB d50 мм 45° пластиковый для внутренней канализации (112120)",
+      "unit": "шт",
+      "quantity": 6.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-105425",
+      "article": "105425",
+      "name": "Отвод Ostendorf HTB d50 мм 87° пластиковый для внутренней канализации (112140)",
+      "unit": "шт",
+      "quantity": 3.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-104857",
+      "article": "104857",
+      "name": "Переходник Ostendorf HTR d110х50 мм пластиковый эксцентрический для внутренней канализации (115720)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-104861",
+      "article": "104861",
+      "name": "Переходник Ostendorf HTRК d110х50 мм пластиковый эксцентрический короткий для внутренней канализации (115725)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108337",
+      "article": "108337",
+      "name": "Тройник Ostendorf HTEA d50 мм 87° пластиковый для внутренней канализации (112400)",
+      "unit": "шт",
+      "quantity": 3.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108335",
+      "article": "108335",
+      "name": "Тройник Ostendorf HTEA d50 мм 45° пластиковый для внутренней канализации (112200)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-102598",
+      "article": "102598",
+      "name": "Заглушка Ostendorf HTM d50 мм пластиковая для внутренней канализации (112620)",
+      "unit": "шт",
+      "quantity": 4.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108463",
+      "article": "108463",
+      "name": "Труба канализационная Ostendorf HTEM d32x500 мм пластиковая для внутренней канализации (110020)",
+      "unit": "шт",
+      "quantity": 3.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108458",
+      "article": "108458",
+      "name": "Труба канализационная Ostendorf HTEM d32x1000 мм пластиковая для внутренней канализации (110040)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1068596",
+      "article": "1068596",
+      "name": "Люк ревизионный Evecs ЛР пластиковый 327х427 мм врезной",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108325",
+      "article": "108325",
+      "name": "Тройник Ostendorf HTEA d110 мм 87° пластиковый для внутренней канализации (115400)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108457",
+      "article": "108457",
+      "name": "Труба канализационная Ostendorf HTEM d110x500 мм пластиковая для внутренней канализации (115020)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-105410",
+      "article": "105410",
+      "name": "Отвод Ostendorf HTB d110 мм 87° пластиковый для внутренней канализации (115140)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-105408",
+      "article": "105408",
+      "name": "Отвод Ostendorf HTB d110 мм 45° пластиковый для внутренней канализации (115120)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-105415",
+      "article": "105415",
+      "name": "Отвод Ostendorf НТВ d32 мм 87° пластиковый для внутренней канализации (110140)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-105413",
+      "article": "105413",
+      "name": "Отвод Ostendorf НТВ d32 мм 45° пластиковый для внутренней канализации (110120)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1165183",
+      "article": "1165183",
+      "name": "Подводка гибкая для воды VRT 1/2 ВР(г) х 1/2 НР(ш) 60 см (521375)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-605187",
+      "article": "605187",
+      "name": "Подводка гибкая для смесителя Stout 1/2 ВР(г) х М10 штуцер 35 мм 40 см (SHF 0045 351015)",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-140775",
+      "article": "140775",
+      "name": "Решетка вентиляционная пластиковая приточно-вытяжная Era РЦ 200х300 мм с сеткой белая",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-103901",
+      "article": "103901",
+      "name": "Кран шаровой латунный Valtec Base 1/2 ВР(г) х 1/2 НР(ш) бабочка прямой (VT.218.N.04)",
+      "unit": "шт",
+      "quantity": 6.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Крепеж",
+      "unit": "шт",
+      "quantity": 0.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-107164",
+      "article": "107164",
+      "name": "Саморезы ГД 41x3,5 мм (200 шт.)",
+      "unit": "упак",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-102429",
+      "article": "102429",
+      "name": "Дюбель распорный Sormat NAT 6x30 мм нейлон (100 шт.)",
+      "unit": "упак",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-109196",
+      "article": "109196",
+      "name": "Хомут сантехнический 50 мм пластик с дюбелем для крепления трубы (2 шт.)",
+      "unit": "упак",
+      "quantity": 8.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-109132",
+      "article": "109132",
+      "name": "Фиксатор Valfex 20 мм для полипропиленовых труб (10160220П)",
+      "unit": "шт",
+      "quantity": 30.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-133551",
+      "article": "133551",
+      "name": "Хомут сантехнический 32-34 мм пластик с дюбелем для крепления трубы (2 шт.)",
+      "unit": "упак",
+      "quantity": 2.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-109197",
+      "article": "109197",
+      "name": "Хомут сантехнический 1 1/2 48-53 мм оцинкованная сталь со шпилькой и дюбелем",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-109200",
+      "article": "109200",
+      "name": "Хомут сантехнический 1\" 31-35 мм оцинкованная сталь со шпилькой и дюбелем (2 шт.)",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-107135",
+      "article": "107135",
+      "name": "Саморезы клопы 13x4,2 мм (200 шт.)",
+      "unit": "упак",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-107195",
+      "article": "107195",
+      "name": "Саморезы ГМ 25x3,5 мм (200 шт.)",
+      "unit": "упак",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Сантехника",
+      "unit": "шт",
+      "quantity": 0.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-623749",
+      "article": "623749",
+      "name": "Смеситель для ванны Lavelly White Modern хром/белый однорычажный с коротким изливом с лейкой (623749)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-623750",
+      "article": "623750",
+      "name": "Смеситель для раковины Lavelly White Modern однорычажный хром/белый (623750)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-503946",
+      "article": "503946",
+      "name": "Пьедестал Santeri Воротынский 675 мм белый (1.3601.7.S00.00B.0)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-503945",
+      "article": "503945",
+      "name": "Раковина Santeri Воротынский 57 см подвесная белая (1.3111.7.S00.10B.0)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-139705",
+      "article": "139705",
+      "name": "Унитаз-компакт Gesso Home de luxe W102 с косым выпуском с сиденьем пластик белый (9 012 357)",
+      "unit": "упак",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-660788",
+      "article": "660788",
+      "name": "Ванна стальная Antika 170х70 см с ножками (А-70001)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-666310",
+      "article": "666310",
+      "name": "Сифон для ванны Virplast 1 1/2х40 мм с выпуском d70 мм с соединением 40/50 мм (30980654)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-666317",
+      "article": "666317",
+      "name": "Сифон для раковины и мойки Wirquin Virplast 1 1/2х40 мм с выпуском d70 мм с соединением 40/50 мм (30986170)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1034339",
+      "article": "1034339",
+      "name": "Ножки для ванны акриловой Ollie (03ол70)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-683212",
+      "article": "683212",
+      "name": "Экран для ванны фронтальный Метакам Diletto ПВХ 170х54 см белый раздвижной (4650208862144)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Финишная отделка",
+      "unit": "шт",
+      "quantity": 0.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-767966",
+      "article": "767966",
+      "name": "Грунт бетоноконтакт КМ-19 15 кг",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "primer",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-108071",
+      "article": "108071",
+      "name": "Сэндвич-панель 1500х3000х10 мм утепленная для откосов белая",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-767965",
+      "article": "767965",
+      "name": "Грунт КМ-17 глубокого проникновения 10 л",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "primer",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-683558",
+      "article": "683558",
+      "name": "Пена монтажная профессиональная Технониколь 70 всесезонная 1000 мл",
+      "unit": "шт",
+      "quantity": 4.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-127203",
+      "article": "127203",
+      "name": "Подложка под ламинат вспененная Стенофон 3 мм 1,05х10 м 10,5 кв.м",
+      "unit": "рул",
+      "quantity": 4.0,
+      "category": "laminate",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1132254",
+      "article": "1132254",
+      "name": "Клей для флизелиновых обоев Quelyd Спец-флизелин 65 кв.м 375 г",
+      "unit": "шт",
+      "quantity": 3.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-740751",
+      "article": "740751",
+      "name": "Профиль П-образный стартовый 12х3000х10 мм белый",
+      "unit": "шт",
+      "quantity": 7.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-104181",
+      "article": "104181",
+      "name": "Крестики для плитки 2 мм (100 шт.)",
+      "unit": "упак",
+      "quantity": 6.0,
+      "category": "tile",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-666524",
+      "article": "666524",
+      "name": "Очиститель пены монтажной 500 мл",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-104045",
+      "article": "104045",
+      "name": "Краска моющаяся Текс Профи база А белая 9 л (Колеровка в TVT F313 (2 шт))",
+      "unit": "шт",
+      "quantity": 4.0,
+      "category": "paint",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-684418",
+      "article": "684418",
+      "name": "Герметик силиконовый санитарный Tytan Professional белый 280 мл",
+      "unit": "шт",
+      "quantity": 3.0,
+      "category": "tools",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1083595",
+      "article": "1083595",
+      "name": "Обои под покраску виниловые на флизелиновой основе фактурные антивандальные Ateliero Рейн 2512АВ-140 (1,06х25 м) плотность 140 г/кв.м",
+      "unit": "рул",
+      "quantity": 5.0,
+      "category": "paint",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-133538",
+      "article": "133538",
+      "name": "Краска фасадная Aura Fasad Expo акриловая база А белая 2,7 л",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "paint",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-667625",
+      "article": "667625",
+      "name": "Подоконник ПВХ 500х2000х20 мм белый матовый",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-667630",
+      "article": "667630",
+      "name": "Заглушка торцевая для ПВХ подоконников белая",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-943210",
+      "article": "943210",
+      "name": "Плинтус ПВХ напольный Идеал Классик 70 мм белый 2200 мм со съемной панелью (аналог уточнить)1136750",
+      "unit": "шт",
+      "quantity": 16.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-740758",
+      "article": "740758",
+      "name": "Уголок ПВХ 20х20х2700 мм гладкий белый",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-943211",
+      "article": "943211",
+      "name": "Угол внутренний Идеал Классик 70 мм белый (2 шт.)",
+      "unit": "упак",
+      "quantity": 5.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-943213",
+      "article": "943213",
+      "name": "Соединитель Идеал Классик 70 мм белый (2 шт.)",
+      "unit": "упак",
+      "quantity": 5.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-943212",
+      "article": "943212",
+      "name": "Угол наружный Идеал Классик 70 мм белый (2 шт.)",
+      "unit": "упак",
+      "quantity": 3.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-943214",
+      "article": "943214",
+      "name": "Заглушка торцевая Идеал Классик 70 мм белая левая-правая (2 шт.)",
+      "unit": "шт",
+      "quantity": 5.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1144307",
+      "article": "1144307",
+      "name": "Уголок ПВХ 15х15х2700 мм глянцевый 007-0 черный",
+      "unit": "шт",
+      "quantity": 3.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-669911",
+      "article": "669911",
+      "name": "Фиксатор Corsa Deco круглая розетка матовый никель",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "electrics",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-669873",
+      "article": "669873",
+      "name": "Ручка дверная Corsa Deco Rowan круглая розетка матовый никель",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-783249",
+      "article": "783249",
+      "name": "Упор дверной Punto матовый никель",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-669887",
+      "article": "669887",
+      "name": "Петля Corsa Deco карточная универсальная неразъемная 100х75 мм матовый никель",
+      "unit": "шт",
+      "quantity": 4.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-770735",
+      "article": "770735",
+      "name": "Профиль для напольных покрытий до 7 мм Т-образный алюминиевый 2700х20х8,5 мм",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-979250",
+      "article": "979250",
+      "name": "Порог алюминиевый угловой внутренний 19х19х900 мм дуб серый",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1202830",
+      "article": "1202830",
+      "name": "Ламинат 33 класс Эггер Хоум дуб барония серый 1,994 кв.м 8 мм с фаской влагостойкий",
+      "unit": "упак",
+      "quantity": 15.0,
+      "category": "laminate",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-620133",
+      "article": "620133",
+      "name": "Плитка напольная Axima Наварра серый 327x327x8 мм (13 шт.=1,39 кв.м)",
+      "unit": "упак",
+      "quantity": 13.0,
+      "category": "tile",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1006919",
+      "article": "1006919",
+      "name": "Плитка облицовочная Нефрит Фьюжен серая 400х200х8 мм (15 шт.=1,2 кв.м)",
+      "unit": "упак",
+      "quantity": 21.0,
+      "category": "tile",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1214610",
+      "article": "1214610",
+      "name": "Плитка облицовочная Нефрит Слим серая 600x300x9 мм (10 шт.=1,8 кв.м)",
+      "unit": "упак",
+      "quantity": 1.0,
+      "category": "tile",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Электрика",
+      "unit": "шт",
+      "quantity": 0.0,
+      "category": "electrics",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-104406",
+      "article": "104406",
+      "name": "Лампа накаливания E27 95 Вт 220 В груша прозрачная",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-987822",
+      "article": "987822",
+      "name": "Прожектор светодиодный Эра LPR-02 6500К 100 Вт IP65 черный",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "electrics",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-138438",
+      "article": "138438",
+      "name": "Выключатель Systeme Electric Glossa двухклавишный встраиваемый белый (GSL000151)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "electrics",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-138436",
+      "article": "138436",
+      "name": "Розетка Systeme Electric Glossa встраиваемая белая со шторками с крышкой (GSL000148)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "electrics",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-625373",
+      "article": "625373",
+      "name": "Патрон для лампы E27 Svet карболитовый IP20 (1011-00030)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-103087",
+      "article": "103087",
+      "name": "Кабель Кабэкс ВВГнг(А)-LS 3х2,5",
+      "unit": "пог. м",
+      "quantity": 10.0,
+      "category": "electrics",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Инструмент",
+      "unit": "шт",
+      "quantity": 0.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-131605",
+      "article": "131605",
+      "name": "Валик полиакрил 250 мм d48 мм ворс 18 мм для водной основы с ручкой Wenzo Roma",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "tools",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1075677",
+      "article": "1075677",
+      "name": "Наждачная бумага Mirox SE 115 мм 5 м Р120",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-505505",
+      "article": "505505",
+      "name": "Лента малярная Beorol белая 48 мм 50 м (BK4850PT)",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-688352",
+      "article": "688352",
+      "name": "Кисть плоская искусственная щетина пластиковая ручка Wenzo Pro 50х12 мм для эмалей и лаков на водной основе",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "tools",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-139761",
+      "article": "139761",
+      "name": "Бур SDS-plus Практика 6х160 мм (033-604)",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-685214",
+      "article": "685214",
+      "name": "Респиратор Исток 1ФК FFP1 с клапаном выдоха формованный (РЕС010-И)",
+      "unit": "шт",
+      "quantity": 3.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-815720",
+      "article": "815720",
+      "name": "Бита КМ (815720) PH2 магнитная 50 мм",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-131627",
+      "article": "131627",
+      "name": "Валик велюр 100 мм d42 мм ворс 4 мм для алкидной основы с ручкой Wenzo Siena",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "tools",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-133501",
+      "article": "133501",
+      "name": "Пилки для лобзика Практика T101В по ламинату L75 мм чистый рез (2 шт.) (034-434)",
+      "unit": "упак",
+      "quantity": 1.0,
+      "category": "laminate",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1145107",
+      "article": "1145107",
+      "name": "Мешок для мусора 75 л 550х950 мм полипропиленовый белый",
+      "unit": "шт",
+      "quantity": 20.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-104462",
+      "article": "104462",
+      "name": "Лезвие для ножа Hesler 18 мм прямое (10 шт.)",
+      "unit": "упак",
+      "quantity": 2.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-675307",
+      "article": "675307",
+      "name": "Пистолет для монтажной пены Hesler (675307)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-109447",
+      "article": "109447",
+      "name": "Шпатель зубчатый 250х6 мм с пластиковой ручкой (109447)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "tools",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-135266",
+      "article": "135266",
+      "name": "Рулетка Hesler с автостопом 5 м x 19 мм",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-678514",
+      "article": "678514",
+      "name": "Шпатель малярный Wenzo 150 мм с эргономичной ручкой и ударным наконечником (678514)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "tools",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-105222",
+      "article": "105222",
+      "name": "Нож строительный Hesler 18 мм с сегментированным лезвием стальной корпус",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-105684",
+      "article": "105684",
+      "name": "Перчатки х/б 4 нити с ПВХ покрытием белые 9 (L)",
+      "unit": "пар",
+      "quantity": 5.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-678214",
+      "article": "678214",
+      "name": "Шпатель фасадный Hesler Master 400 мм с эргономичной ручкой и широким полотном (540-678214)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "tools",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-797842",
+      "article": "797842",
+      "name": "Мешок для пылесоса Karcher к моделям WD 2/WD 3 нетканый материал (4 шт.) (2.863-314.0)",
+      "unit": "упак",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-163105",
+      "article": "163105",
+      "name": "Коронка алмазная Trio-Diamond (400068) по керамограниту d68 мм",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-163096",
+      "article": "163096",
+      "name": "Коронка алмазная Trio-Diamond (400032) по керамограниту d32 мм",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-105868",
+      "article": "105868",
+      "name": "Пистолет для герметика стальной скелетный усиленный 310 мл Hesler",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "tools",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1041627",
+      "article": "1041627",
+      "name": "Диск алмазный по керамике Trio-Diamond Керамик Pro 125х22,2х1,1 мм сплошной сухой рез (370125)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-685157",
+      "article": "685157",
+      "name": "Очки защитные Исток открытые с прозрачными линзами (ОЧК016)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-107441",
+      "article": "107441",
+      "name": "Сверло по плитке и стеклу Matrix 6х75 мм (72816/EA08-606/9383)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "tile",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1080907",
+      "article": "1080907",
+      "name": "Угольник строительный Hesler 350 мм стальной",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-666096",
+      "article": "666096",
+      "name": "Ведро строительное пластиковое РВ Пласт усиленное 20 л",
+      "unit": "шт",
+      "quantity": 4.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-865865",
+      "article": "865865",
+      "name": "Правило алюминиевое 3 м трапеция Hesler",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "tools",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-688335",
+      "article": "688335",
+      "name": "Ванночка для краски 370х340 мм к валикам до 250 мм",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "paint",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-107635",
+      "article": "107635",
+      "name": "Лента клейкая упаковочная Unibob прозрачная 48 мм 66 м",
+      "unit": "рул",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-125418",
+      "article": "125418",
+      "name": "Карандаш строительный малярный Hesler (2 шт.)",
+      "unit": "упак",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-683873",
+      "article": "683873",
+      "name": "Маркер перманентный Crown Multi Marker Super Slim черный грифель 1 мм",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Технические товары",
+      "unit": "шт",
+      "quantity": 0.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1082689",
+      "article": "1082689",
+      "name": "Ветошь 10 кг Laut белая эконом",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-668660",
+      "article": "668660",
+      "name": "Щетка для пола 300 мм Apollo Nuovo с черенком",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1010658",
+      "article": "1010658",
+      "name": "Средство Grass для мытья поверхностей универсальное 5 л",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Двери",
+      "unit": "шт",
+      "quantity": 0.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-veldoris",
+      "article": "VELDORIS-КАПУЧИНО СО СТЕКЛОМ",
+      "name": "Наличник дверной",
+      "unit": "шт",
+      "quantity": 10.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-200-600",
+      "article": "",
+      "name": "Дверная коробка комплект 200*600",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-2000-600",
+      "article": "",
+      "name": "Дверное полотно 2000*600",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-2000-800",
+      "article": "",
+      "name": "Дверная коробка 2000*800",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-20008-800",
+      "article": "",
+      "name": "Дверное полотно 20008*800",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Добор декор",
+      "unit": "шт",
+      "quantity": 6.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Заглушка дверная,наклейка",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Дверные петли",
+      "unit": "шт",
+      "quantity": 4.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Дверные замки",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-634989",
+      "article": "634989",
+      "name": "Затирка цементная эластичная Plitonit Colorit Premium белая пакет 2 кг",
+      "unit": "шт",
+      "quantity": 3.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-634991",
+      "article": "634991",
+      "name": "Затирка цементная эластичная Plitonit Colorit Premium шоколад пакет 2 кг",
+      "unit": "шт",
+      "quantity": 3.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1003274",
+      "article": "1003274",
+      "name": "Раковина для тумбы Aquanet Flat 60 см (254363)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1080600",
+      "article": "1080600",
+      "name": "Тумба под раковину Акванет Джейн 60 см подвесная мисти грин (00335432)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1015343",
+      "article": "1015343",
+      "name": "Инсталляция Grohe Rapid SL для подвесного унитаза с кнопкой хром (38772001)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1077338",
+      "article": "1077338",
+      "name": "Унитаз подвесной Corsa Deco DX Rimless безободковый с сиденьем дюропласт микролифт (WHDX530RS)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-600674",
+      "article": "600674",
+      "name": "Ванна акриловая Cersanit Lorena 170х70 см без ножек (WP-LORENA*170-W/63323)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-943210",
+      "article": "943210",
+      "name": "Плинтус ПВХ напольный Идеал Классик 70 мм белый 2200 мм со съемной панелью",
+      "unit": "шт",
+      "quantity": 16.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1144308",
+      "article": "1144308",
+      "name": "Уголок ПВХ 15х15х2700 мм глянцевый 002-0 светло-серый",
+      "unit": "шт",
+      "quantity": 7.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1139778",
+      "article": "1139778",
+      "name": "Обои компакт-винил на флизелиновой основе Victoria Stenova Ideal 287392 (1,06х10,05 м)",
+      "unit": "рул",
+      "quantity": 12.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-978794",
+      "article": "978794",
+      "name": "Плитка облицовочная Gracia Ceramica Marella 01 белая 900х300х8 мм (5 шт.=1,35 кв.м)",
+      "unit": "упак",
+      "quantity": 16.0,
+      "category": "tile",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-793160",
+      "article": "793160",
+      "name": "Керамогранит Cersanit Yasmin коричневый 598х185х7,5 мм (11 шт.=1,216 кв.м)",
+      "unit": "упак",
+      "quantity": 8.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-620194",
+      "article": "620194",
+      "name": "Керамогранит Grasaro Softmarble белый 600х600х9 мм (5 шт.=1,8 кв.м)",
+      "unit": "упак",
+      "quantity": 17.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-865813",
+      "article": "865813",
+      "name": "Правило алюминиевое 2 м трапеция Hesler",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "tools",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "Двери белые с фаской Аэлита",
+      "name": "Завертка дверная Никель",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Ограничитель дверной",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Ручка дверная",
+      "unit": "шт",
+      "quantity": 2.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Наличник дверной",
+      "unit": "шт",
+      "quantity": 10.0,
+      "category": "doors",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "",
+      "name": "Потолки",
+      "unit": "шт",
+      "quantity": 0.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-item",
+      "article": "Отдельно расчет",
+      "name": "Натяжные потолки",
+      "unit": "м²",
+      "quantity": 1200.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1029359",
+      "article": "1029359",
+      "name": "Шпаклевка полимерная Plitonit Кп Pro финишная белая 20 кг",
+      "unit": "шт",
+      "quantity": 8.0,
+      "category": "putty",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1093637",
+      "article": "1093637",
+      "name": "Затирка эпоксидная Plitonit Colorit EasyFill графитовая 2 кг",
+      "unit": "шт",
+      "quantity": 3.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1030978",
+      "article": "1030978",
+      "name": "Смазка сантехническая Unipak Super Glidex 250 г",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1093947",
+      "article": "1093947",
+      "name": "Смеситель для раковины Corsa Deco DS однорычажный черный (FBDSB)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1080599",
+      "article": "1080599",
+      "name": "Тумба под раковину Акванет Джейн 60 см подвесная маренго (00335427)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1031153",
+      "article": "1031153",
+      "name": "Смеситель для раковины Milardo Rora однорычажный черный (RORBL00M01)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1064272",
+      "article": "1064272",
+      "name": "Душевая система Corsa Deco TX с верхним душем с лейкой с изливом черная (SSFTX250QB)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1096852",
+      "article": "1096852",
+      "name": "Сифон для раковины АНИ пласт 1 1/4х40 мм с выпуском 40/50 мм с соединением 40/50 мм (C2015)",
+      "unit": "шт",
+      "quantity": 1.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-740757",
+      "article": "740757",
+      "name": "Уголок ПВХ 15х15х2700 мм гладкий белый",
+      "unit": "шт",
+      "quantity": 7.0,
+      "category": "plumbing",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-1159491",
+      "article": "1159491",
+      "name": "Керамогранит Уральский Гранит Гранитея Таганай G345 темно-серый матовый 600х600х9 мм (4 шт.=1,44 кв.м)",
+      "unit": "упак",
+      "quantity": 8.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    },
+    {
+      "id": "material-901138",
+      "article": "901138",
+      "name": "Керамогранит Cersanit Yasmin темно-бежевый 598х185х7,5 мм (11 шт.=1,216 кв.м)",
+      "unit": "упак",
+      "quantity": 10.0,
+      "category": "consumables",
+      "price": 0.0,
+      "image": null
+    }
+  ],
+  "styles": [
+    {
+      "id": "provence",
+      "name": "Прованс"
+    },
+    {
+      "id": "grunge",
+      "name": "Гранж"
+    },
+    {
+      "id": "moire",
+      "name": "Муар"
+    }
+  ],
+  "style_materials": [
+    {
+      "styleId": "provence",
+      "materialId": "material-104843",
+      "quantity": 50.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-137322",
+      "quantity": 8.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-133344",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-106474",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-106484",
+      "quantity": 15.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-104176",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-101935",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-144739",
+      "quantity": 7.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-131063",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-141512",
+      "quantity": 50.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-105946",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108519",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108525",
+      "quantity": 15.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108738",
+      "quantity": 20.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108739",
+      "quantity": 20.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108373",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-143520",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-104904",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-104903",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-105875",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1207492",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1204902",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1171894",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108475",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108470",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-105423",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-105425",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-104857",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-104861",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108337",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108335",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-102598",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108463",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108458",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1068596",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108325",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108457",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-105410",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-105408",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-105415",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-105413",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1165183",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-605187",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-140775",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-103901",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-107164",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-102429",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-109196",
+      "quantity": 8.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-109132",
+      "quantity": 30.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-133551",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-109197",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-109200",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-107135",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-107195",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-623749",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-623750",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-503946",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-503945",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-139705",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-660788",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-666310",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-666317",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1034339",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-683212",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-767966",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-108071",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-767965",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-683558",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-127203",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1132254",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-740751",
+      "quantity": 7.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-104181",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-666524",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-104045",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-684418",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1083595",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-133538",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-667625",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-667630",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-943210",
+      "quantity": 16.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-740758",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-943211",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-943213",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-943212",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-943214",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1144307",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-669911",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-669873",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-783249",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-669887",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-770735",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-979250",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1202830",
+      "quantity": 15.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-620133",
+      "quantity": 13.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1006919",
+      "quantity": 21.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1214610",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-104406",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-987822",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-138438",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-138436",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-625373",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-103087",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-131605",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1075677",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-505505",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-688352",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-139761",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-685214",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-815720",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-131627",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-133501",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1145107",
+      "quantity": 20.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-104462",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-675307",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-109447",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-135266",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-678514",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-105222",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-105684",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-678214",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-797842",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-163105",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-163096",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-105868",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1041627",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-685157",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-107441",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1080907",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-666096",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-865865",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-688335",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-107635",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-125418",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-683873",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1082689",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-668660",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-1010658",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-veldoris",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-200-600",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-2000-600",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-2000-800",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-20008-800",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-item",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-item",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-item",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "provence",
+      "materialId": "material-item",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-104843",
+      "quantity": 50.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-137322",
+      "quantity": 8.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-133344",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-106474",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-106484",
+      "quantity": 15.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-104176",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-101935",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-144739",
+      "quantity": 7.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-131063",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-141512",
+      "quantity": 50.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-105946",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-634989",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-634991",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108519",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108525",
+      "quantity": 15.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108738",
+      "quantity": 20.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108739",
+      "quantity": 20.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108373",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-143520",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-104904",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-104903",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-105875",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1207492",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1204902",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1171894",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108475",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108470",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-105423",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-105425",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-104857",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-104861",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108337",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108335",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-102598",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108463",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108458",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1068596",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108325",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108457",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-105410",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-105408",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-105415",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-105413",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1165183",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-605187",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-140775",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-103901",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-107164",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-102429",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-109196",
+      "quantity": 8.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-109132",
+      "quantity": 30.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-133551",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-109197",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-109200",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-107135",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-107195",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-623749",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-623750",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-666310",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-666317",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1034339",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-683212",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1003274",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1080600",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1015343",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1077338",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-600674",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-767966",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-108071",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-767965",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-683558",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-127203",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1132254",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-740751",
+      "quantity": 7.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-104181",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-666524",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-684418",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1083595",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-667625",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-667630",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-943210",
+      "quantity": 16.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-740758",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-943211",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-943213",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-943212",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-943214",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-783249",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-770735",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-979250",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1202830",
+      "quantity": 15.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1144308",
+      "quantity": 7.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1139778",
+      "quantity": 12.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-978794",
+      "quantity": 16.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-793160",
+      "quantity": 8.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-620194",
+      "quantity": 17.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-104406",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-987822",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-138438",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-138436",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-625373",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-103087",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-131605",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1075677",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-505505",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-688352",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-139761",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-685214",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-815720",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-131627",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-133501",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1145107",
+      "quantity": 20.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-104462",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-675307",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-109447",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-135266",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-678514",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-105222",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-105684",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-678214",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-797842",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-163105",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-163096",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-105868",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1041627",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-685157",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-107441",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1080907",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-666096",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-865813",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-688335",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-107635",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-125418",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-683873",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1082689",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-668660",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-1010658",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-200-600",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-2000-600",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-2000-800",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-20008-800",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "grunge",
+      "materialId": "material-item",
+      "quantity": 1200.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-104843",
+      "quantity": 50.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-133344",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-106474",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-106484",
+      "quantity": 15.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-104176",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-101935",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-144739",
+      "quantity": 7.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-141512",
+      "quantity": 50.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-105946",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1029359",
+      "quantity": 8.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1093637",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108525",
+      "quantity": 15.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108738",
+      "quantity": 20.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108739",
+      "quantity": 20.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108373",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-143520",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-104904",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-104903",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-105875",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1207492",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1204902",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1171894",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108475",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108470",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-105423",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-105425",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-104857",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-104861",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108337",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108335",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-102598",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108463",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108458",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1068596",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108325",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108457",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-105410",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-105408",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-105415",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-105413",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1165183",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-605187",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-140775",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-103901",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1030978",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-107164",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-102429",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-109196",
+      "quantity": 8.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-109132",
+      "quantity": 30.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-133551",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-109197",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-109200",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-107135",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-107195",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-666310",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1015343",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1077338",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1093947",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1003274",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1080599",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1031153",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1064272",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1096852",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-767966",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-108071",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-767965",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-683558",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-127203",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1132254",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-740751",
+      "quantity": 7.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-104181",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-666524",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-684418",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1083595",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-667625",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-667630",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-943210",
+      "quantity": 16.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-943211",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-943213",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-943212",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-943214",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-783249",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-770735",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-979250",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1144308",
+      "quantity": 7.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-740757",
+      "quantity": 7.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1202830",
+      "quantity": 15.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1159491",
+      "quantity": 8.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-901138",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-104406",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-987822",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-138438",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-138436",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-625373",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-103087",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-131605",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1075677",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-505505",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-688352",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-139761",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-685214",
+      "quantity": 3.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-815720",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-131627",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-133501",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1145107",
+      "quantity": 20.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-104462",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-675307",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-109447",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-135266",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-678514",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-105222",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-105684",
+      "quantity": 5.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-678214",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-797842",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-163105",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-163096",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-105868",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1041627",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-685157",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-107441",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1080907",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-666096",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-865813",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-688335",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-107635",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-125418",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-683873",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1082689",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-668660",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-1010658",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 2.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 10.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-200-600",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-2000-600",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-2000-800",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-20008-800",
+      "quantity": 1.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 6.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 4.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 0.0
+    },
+    {
+      "styleId": "moire",
+      "materialId": "material-item",
+      "quantity": 1200.0
+    }
+  ]
+}

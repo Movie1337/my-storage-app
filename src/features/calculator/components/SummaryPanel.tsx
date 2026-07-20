@@ -7,11 +7,12 @@ import { formatCurrency, formatNumber } from '../../../shared/lib/formatters';
 interface SummaryPanelProps {
   input: CalculatorInput;
   summary: CalculatorSummary;
+  styleName: string;
   disabled: boolean;
   onCreateRequest: () => void;
 }
 
-export function SummaryPanel({ input, summary, disabled, onCreateRequest }: SummaryPanelProps) {
+export function SummaryPanel({ input, summary, styleName, disabled, onCreateRequest }: SummaryPanelProps) {
   return (
     <Paper
       elevation={0}
@@ -29,7 +30,7 @@ export function SummaryPanel({ input, summary, disabled, onCreateRequest }: Summ
             Объект
           </Typography>
           <Typography variant="h3">{summary.objectLabel}</Typography>
-          <Typography color="text.secondary">Стиль: {getFinishStyleName(input.style)}</Typography>
+          <Typography color="text.secondary">Стиль: {styleName}</Typography>
         </Stack>
 
         <Divider />
